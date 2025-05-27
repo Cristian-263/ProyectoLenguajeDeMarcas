@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="icon" href="Imagenes/logo.png" />
+</head>
+<body>
+
+  <div class="container my-5" style="max-width: 600px;">
+    <h1 class="text-center mb-4">Formulario de Contacto</h1>
+
+    <form action="http://www.cursos-diseño.es/mostrar.php" method="post">
+
+      <!-- Nombre -->
+      <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input type="text" name="nombre" class="form-control w-75" required>
+      </div>
+
+      <!-- Apellidos -->
+      <div class="mb-3">
+        <label class="form-label">Apellidos</label>
+        <input type="text" name="apellidos" class="form-control w-100" required>
+      </div>
+
+      <!-- Dirección -->
+      <div class="mb-3">
+        <label class="form-label">Dirección</label>
+        <input type="text" name="direccion" class="form-control w-100" required>
+      </div>
+
+      <!-- Email -->
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" name="mail" id="email" class="form-control w-100" required oninput="emailConfirm.setAttribute('pattern', this.value)">
+      </div>
+
+      <!-- Confirmar Email -->
+      <div class="mb-3">
+        <label class="form-label">Confirmar Email</label>
+        <input type="email" name="confirmar_mail" id="emailConfirm" class="form-control w-100" required>
+      </div>
+
+      <!-- Teléfono -->
+      <div class="mb-3">
+        <label class="form-label">Teléfono</label>
+        <input type="tel" name="telefono" class="form-control w-50" required>
+      </div>
+
+      <!-- Comentarios -->
+      <div class="mb-3">
+        <label class="form-label">Comentario</label>
+        <textarea name="sugerencias" class="form-control w-100" rows="4" required></textarea>
+      </div>
+
+      <!-- Aceptar términos -->
+      <div class="mb-3 form-check">
+        <input class="form-check-input" type="checkbox" name="acepta" value="sí" required>
+        <label class="form-check-label">
+          Acepto los <a href="aviso-legal.html" target="_blank">términos y condiciones</a>
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 py-4 border-top">
+    <a href="#" class="me-3">Síguenos en redes</a>
+    <a href="contacto.html" class="me-3">Formulario de contacto</a>
+    <a href="aviso-legal.html">Aviso Legal</a>
+  </footer>
+
+</body>
+</html>

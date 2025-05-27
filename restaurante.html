@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurantes</title>
+    <link rel="icon" href="Imagenes/logo.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div type="button" id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagenes/ImagenAsmaRestaurant.jpg" class="d-block w-100 bg-darg bg-opacity-50"
+                    style="object-fit: cover; height: 70vh;" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+                <div data-bs-toggle="modal" data-bs-target="#modalAsma"
+                    class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100">
+                    <h5>RESTAURANTES</h5>
+                    <h1 class="border-bottom w-100 text-start border-3 pb-4">ASMA RESTAURANT</h1>
+                    <p>Restaurante moderno de cocina de Oriente Medio, inspirado en recetas tradicionales para
+                        compartir.</p>
+                    <img src="Imagenes/LogoAsmaRestaurante.jpg" class="logo2" alt="">
+                    <div class="modal fade" id="modalAsma">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">ASMA RESTAURANT</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="Imagenes/ImagenRestauranteAsma.jpg" class="w-100 h-100" alt="">
+                                    <p>Asma Restaurant destaca por su propuesta moderna de cocina de Oriente Medio para
+                                        compartir:
+                                        <br>
+                                        - Inspirado en recetas tradicionales con un toque contemporáneo.
+                                        <br>
+                                        - Platos como hummus, kebabs y ensaladas especiadas.
+                                        <br>
+                                        - Ambiente acogedor con diseño elegante.
+                                        <br>
+                                        - Ideal para compartir en grupo.
+                                        <br>
+                                        - Enfocado en sabores auténticos y presentación moderna.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/ImagenPaulCafe.jpg" class="d-block w-100" style="object-fit: cover; height: 70vh;"
+                    alt="...">
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50">
+                    <div data-bs-toggle="modal" data-bs-target="#modalPaul"
+                        class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100">
+                        <h5>RESTAURANTES</h5>
+                        <h1 class="border-bottom w-100 text-start border-3 pb-4">PAUL CAFÉ</h1>
+                        <p>Ofrece exquisitos panes franceses, tartas y diversos postres.</p>
+                        <img src="Imagenes/LogoPaulCafe.png" class="logo2" alt="">
+                    </div>
+                    <div class="modal fade" id="modalPaul">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">PAUL CAFÉ</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="Imagenes/ImagenRestaurantePaulCafe.jpg" class="w-100 h-100" alt="">
+                                    <p>Paul Café combina tradición francesa con un ambiente acogedor y elegante:
+                                        <br>
+                                        - Ofrece panes artesanales, pasteles y tartas.
+                                        <br>
+                                        - Amplia carta de cafés, tés y desayunos.
+                                        <br>
+                                        - Decoración clásica parisina.
+                                        <br>
+                                        - Productos frescos y presentación cuidada.
+                                        <br>
+                                        - Ideal para desayunar, merendar o relajarse.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagenes/ImagenNewShanghai.jpg" class="d-block w-100" style="object-fit: cover; height: 70vh;"
+                    alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+                <div data-bs-toggle="modal" data-bs-target="#modalShanghai"
+                    class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100">
+                    <h5>RESTAURANTES</h5>
+                    <h1 class="border-bottom w-100 text-start border-3 pb-4">NEW SHANGHAI</h1>
+                    <p>New Shanghai ofrece a sus invitados una muestra de la cocina moderna al estilo de Shanghai dentro
+                        de un gran ambiente.</p>
+                    <img src="Imagenes/LogoNewShanghai.png" class="logo2" alt="">
+                    <div class="modal fade" id="modalShanghai">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">NEW SHANGHAI</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="Imagenes/ImagenRestauranteNewShanghai.jpg" class="w-100 h-100" alt="">
+                                    <p>New Shanghai ofrece una experiencia de cocina china moderna en un entorno
+                                        vibrante:
+                                        <br>
+                                        - Especializado en dumplings, fideos y platos al wok.
+                                        <br>
+                                        - Sabores intensos con presentaciones actuales.
+                                        <br>
+                                        - Ambiente dinámico con toques orientales.
+                                        <br>
+                                        - Comida ideal para compartir.
+                                        <br>
+                                        - Inspirado en el estilo de vida contemporáneo de Shanghai.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div type="button" data-bs-toggle="modal" data-bs-target="#modalTiffany"
+                class="col-12 col-md-6 col-lg-4 position-relative p-0 border-0"
+                style="border-width: 20px; background-image: url(Imagenes/ImagenTiffany.jpg); background-size: cover; background-position: center; min-height: 70vh;">
+                <div class="position-absolute bottom-0 start-0 w-100 p-4 bg-dark bg-opacity-50 text-white">
+                    <h3>¿LO HAS PROBADO?</h3>
+                    <h4>TIFFANY BLUE BOX CAFÉ</h4>
+                    <div class="d-flex align-items-center">
+                        <img src="Imagenes/LogoTiffany&CO.jpg" class="logo" alt="">
+                        <div class="modal fade" id="modalTiffany">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">TIFFANY BLUE BOX CAFÉ</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="Imagenes/ImagenRestauranteTiffany&Co.webp" class="w-100 h100" alt="">
+                                        <p>Tiffany Blue Box Café ofrece una experiencia elegante inspirada en el
+                                            icónico universo de Tiffany & Co.:
+                                            <br>
+                                            - Decoración en azul Tiffany con detalles sofisticados.
+                                            <br>
+                                            - Desayunos, brunches y meriendas refinadas.
+                                            <br>
+                                            - Platos como croissants, tartas, y ensaladas gourmet.
+                                            <br>
+                                            - Presentación cuidada con vajilla de lujo.
+                                            <br>
+                                            - Ambiente ideal para fotos y celebraciones especiales.
+                                            <br>
+                                        <p>Para más información consulta este enlace: <a
+                                                href="https://thedubaimall.com/en/shop/tiffany-blue-box-cafe">TIFFANY
+                                                BLUE BOX CAFÉ</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-bs-toggle="modal" data-bs-target="#modalDoorsDubai"
+                class="col-12 col-md-6 col-lg-4 position-relative p-0" type="button"
+                style="border-width: 20px; background-image: url(Imagenes/ImagenDoorsDubaiREstaurant.jpg); background-size: cover; background-position: center; min-height: 70vh;">
+                <div class="position-absolute bottom-0 start-0 w-100 p-4 bg-dark bg-opacity-50 text-white">
+                    <h3>TU ESCAPE GOURMET</h3>
+                    <h4>DOORS DUBAI RESTAURANT</h4>
+                    <div class="d-flex align-items-center">
+                        <img src="Imagenes/LogoDoorsDubaijpg.jpg" class="logo" alt="">
+                        <div class="modal fade" id="modalDoorsDubai">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">DOORS DUBAI RESTAURANT</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="Imagenes/ImagenRestauranteDoorsDubai.png" class="w-100 h-100" alt="">
+                                        <p>Doors Dubai Restaurant combina lujo, cocina de fusión y una experiencia
+                                            gastronómica única:
+                                            <br>
+                                            - Cocina internacional con influencias turcas y mediterráneas.
+                                            <br>
+                                            - Platos gourmet como carnes a la parrilla, mariscos y cortes premium.
+                                            <br>
+                                            - Experiencia sensorial con presentación de platos en mesa.
+                                            <br>
+                                            - Terraza junto al agua con vistas impresionantes.
+                                            <br>
+                                            - Ambiente elegante y servicio personalizado.
+                                            <br>
+                                        <p>Para más información consulta este enlace: <a
+                                                href="https://thedubaimall.com/en/shop/doors-dubai">DOORS DUBÁI
+                                                RESTAURANT</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-bs-toggle="modal" data-bs-target="#modalOpso"
+                class="col-12 col-md-6 col-lg-4 position-relative p-0" type="button"
+                style="border-width: 20px; background-image: url(Imagenes/ImagenRestauranteOpso.jpg); background-size: cover; background-position: center; min-height: 70vh;">
+                <div class="position-absolute bottom-0 start-0 w-100 p-4 bg-dark bg-opacity-50 text-white">
+                    <h3>LUJO MEDITERRÁNEO</h3>
+                    <h4>OPSO</h4>
+                    <div class="d-flex align-items-center">
+                        <img src="Imagenes/LogoRestauranteOpso.jpg" class="logo" alt="">
+                        <div class="modal fade" id="modalOpso">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">OPSO</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="Imagenes/ImagenRestauranteDoorsDubai.png" class="w-100 h-100" alt="">
+                                        <p>OPSO es un restaurante moderno que fusiona la cocina griega con un toque
+                                            contemporáneo:
+                                            <br>
+                                            Platos mediterráneos creativos con ingredientes de alta calidad.
+                                            <br>
+                                            Opciones para compartir como mezzes, panes artesanales y mariscos.
+                                            <br>
+                                            Ambientes elegantes con terrazas y vistas al Burj Khalifa.
+                                            <br>
+                                            Ideal para brunches, cenas o eventos especiales.
+                                            <br>
+                                            Presentación sofisticada y experiencia gastronómica de lujo.
+                                            <br>
+                                        <p>Para más información consulta este enlace: <a
+                                                href="https://thedubaimall.com/en/shop/opso">OPSO</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div data-bs-toggle="modal" data-bs-target="#modalStarbucks"
+                class="col-12 col-md-6 col-lg-4 position-relative p-0" type="button"
+                style="border-width: 20px; background-image: url(Imagenes/ImagenStarbucks.jpg); background-size: cover; background-position: center; min-height: 70vh;">
+                <div class="position-absolute bottom-0 start-0 w-100 p-2 bg-dark bg-opacity-50 text-white">
+                    <h5>EMPIEZA TU DÍA CON STARBUCKS</h5>
+                    <h4>STARBUCKS</h4>
+                    <img src="Imagenes/LogoStarbucks.png" class="logo" alt="">
+                    <div class="modal fade" id="modalStarbucks">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">STARBUCKS</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="Imagenes/ImagenRestauranteStarbucks.jpg" class="w-100 h-100" alt="">
+                                    <p>Starbucks es la cafetería ideal para disfrutar bebidas personalizadas y un
+                                        ambiente acogedor:
+                                        <br>
+                                        - Café espresso, frappuccinos y tés variados.
+                                        <br>
+                                        - Dulces, bocadillos y snacks para acompañar.
+                                        <br>
+                                        - Espacios tranquilos para estudiar o trabajar.
+                                        <br>
+                                        - Sistema de recompensas y pedidos desde la app.
+                                        <br>
+                                    <p>Para más información consulta este enlace: <a
+                                            href="https://thedubaimall.com/en/shop/starbucks-first-floor">STARBUCKS</a>
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div data-bs-toggle="modal" data-bs-target="#modalTGI"
+                class="col-12 col-md-6 col-lg-4 position-relative p-0" type="button"
+                style="border-width: 20px; background-image: url(Imagenes/ImagenTGIFridays.jpg); background-size: cover; background-position: center; min-height: 70vh;">
+                <div class="position-absolute bottom-0 start-0 w-100 p-2 bg-dark bg-opacity-50 text-white">
+                    <h5>TGI FRIDAYS</h5>
+                    <h4>CELEBRA CADA MOMENTO EN TGI FRIDAYS</h4>
+                    <img src="Imagenes/LogoTGIFridays.jpg" class="logo" alt="">
+                    <div class="modal fade" id="modalTGI">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">TGI FRIDAYS</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="Imagenes/ImagenRestauranteTGIFridays.jpg" class="w-100 h-100" alt="">
+                                    <p>TGI Fridays ofrece comida americana en un ambiente animado y relajado:
+                                        <br>
+                                        - Hamburguesas, costillas y alitas al estilo americano.
+                                        <br>
+                                        - Cócteles clásicos y especiales de la casa.
+                                        <br>
+                                        - Entrantes para compartir como nachos y quesadillas.
+                                        <br>
+                                        - Ambiente temático con decoración americana.
+                                        <br>
+                                        - Música, eventos y promociones frecuentes.
+                                        <br>
+                                    <p>Para más información consulta este enlace: <a
+                                            href="https://thedubaimall.com/en/shop/tgi-fridays-1">TGI Fridays</a></p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div data-bs-toggle="modal" data-bs-target="#modalFiveGuys"
+                class="col-12 col-md-6 col-lg-4 position-relative p-0" type="button"
+                style="border-width: 20px; background-image: url(Imagenes/ImagenFiveGuys.jpg); background-size: cover; background-position: center; min-height: 70vh;">
+                <div class="position-absolute bottom-0 start-0 w-100 p-2 bg-dark bg-opacity-50 text-white">
+                    <h5>FIVE GUYS</h5>
+                    <h4>EL VERDADERO SABOR AMERICANO</h4>
+                    <a data-bs-toggle="modal" data-bs-target="#modalFiveGuys">
+                        <img src="Imagenes/LogoFiveGuys.jpg" class="logo" alt="">
+                        <div class="modal fade" id="modalFiveGuys">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">FIVE GUYS</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="Imagenes/ImagenRestauranteFiveGuys.jpg" class="w-100 h-100" alt="">
+                                        <p>Five Guys es una cadena americana conocida por su comida fresca y
+                                            personalizable:
+                                            <br>
+                                            - Hamburguesas 100% carne de vacuno.
+                                            <br>
+                                            - Más de 15 toppings gratuitos.
+                                            <br>
+                                            - Patatas fritas caseras en aceite de cacahuete.
+                                            <br>
+                                            - Batidos personalizables con varios sabores.
+                                            <br>
+                                            - Ambiente informal y servicio rápido.
+                                            <br>
+                                        <p>Para más información consulta este enlace: <a
+                                                href="https://thedubaimall.com/en/shop/five-guys-1">Five Guys</a></p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

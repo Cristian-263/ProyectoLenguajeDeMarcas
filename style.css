@@ -1,0 +1,33 @@
+/*TIPOS DE LETRA*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*TIPOS DE LETRA*/
+
+
+/*PÁGINA RESTAURANTE*/
+img.logo {
+    width: 140px;
+}
+
+.logo2 {
+    width: 150px;
+}
+
+/*PÁGINA RESTAURANTE*/
+
+
+/*PÁGINA OCIO*/
+
+body {
+    overflow-x: hidden;
+}
+img.btn.p-0 {
+    width: 80px;
+}
+
+img.boton.btn.p-0 {
+    width: 150px;
+}
+
+/*PÁGINA OCIO*/
