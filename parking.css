@@ -1,0 +1,57 @@
+/* Fuentes de Google Fonts*/
+
+ /* Fuente Inter (Parrafos) */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ /* Fuente Playfair Display (Titulos) */
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+  /*CARRUSEL ACTIVIDADES*/
+  .carrusel-actividades {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  /*Oculta la barra de desplazamiento*/
+  .carrusel-actividades::-webkit-scrollbar {
+    display: none;
+  }
+
+  .carrusel-card {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 36rem; 
+  }
+
+  .card-img-top {
+    height: 450px; 
+    object-fit: cover;
+  }
+
+  .carrusel-container {
+    position: relative;
+  }
+
+  .carrusel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 2rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+  }
+
+  .carrusel-btn.left {
+    left: 0;
+  }
+
+  .carrusel-btn.right {
+    right: 0;
+  }

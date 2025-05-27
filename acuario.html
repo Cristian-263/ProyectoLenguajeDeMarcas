@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acuario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="Imagenes/logo.png" />
+    <!-- Librerias de Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/132cfaaa93.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="acuario.css">
+</head>
+</head>
+
+<body class="w-100 m-0 p-0">
+    <!-- Header -->
+    <header class="d-flex justify-content-center align-items-center">
+        <img src="Imagenes/logoAcuario.jpg" alt="">
+        <h1>DUBAI AQUARIUM & UNDERWATER ZOO</h1>
+        <img src="Imagenes/logoAcuario.jpg" alt="">
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegaorPrincipal">
+        <a href="index.html">Inicio</a>
+        <a href="tiendas.html">Tiendas y comprar</a>
+        <a href="restaurante.html">Comidas y cenas</a>
+        <a href="ocio.html">Entretenimiento</a>
+        <a href="acuario.html">Acuario</a>
+        <a href="visitanos.html">Planea tu visita</a>
+        <a href="cine.html">Cine</a>
+        <a href="">Regístrate</a>
+    </nav>
+    <article>
+
+        <!-- Video + reserva -->
+        <section class="position-relative w-100 overflow-hidden" style="height: 90vh;">
+
+            <!-- Video de fondo -->
+            <video src="Imagenes/videoAcuario.mp4" autoplay muted loop playsinline
+                class="w-100 h-100 object-fit-cover d-block position-absolute top-0 start-0"
+                style="z-index: 1;"></video>
+
+            <!-- Caja de reserva encima del video -->
+            <div class="position-relative z-2 d-flex align-items-center justify-content-center h-100">
+                <div class="bg-transparent bg-opacity-10 p-5 text-center rounded shadow">
+                    <h2 class="text-white">Reserva tu Entrada</h2>
+                    <img src="Imagenes/imagesAcuarVideo.jpg" alt="" class="img-fluid my-3" style="max-height: 150px;">
+                    <br>
+                    <a href="https://www.thedubaiaquarium.com/tickets/book-tickets/"
+                        class="btn btn-dark mt-3">ENTRADAS</a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+<h3 class="text-center my-4">ACTIVIDADES</h3>
+
+
+
+<div class="w-100 px-4 carrusel-container">
+  <button class="carrusel-btn left" onclick="document.getElementById('carruselTrack').scrollBy({left: -400, behavior: 'smooth'})">‹</button>
+  <button class="carrusel-btn right" onclick="document.getElementById('carruselTrack').scrollBy({left: 400, behavior: 'smooth'})">›</button>
+
+  <div id="carruselTrack" class="carrusel-actividades gap-4 pb-4">
+
+    <!-- Card 1 -->
+    <div class="card carrusel-card">
+      <img src="Imagenes/imagenAcuario1.webp" class="card-img-top" alt="Exploradores">
+      <div class="card-body">
+        <h5 class="card-title">Exploradores Junior & Senior</h5>
+        <p class="card-text">Participa en experiencias únicas adaptadas a todas las edades.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card carrusel-card">
+      <img src="Imagenes/acuarioCocodrilo.webp" class="card-img-top" alt="Programa educativo">
+      <div class="card-body">
+        <h5 class="card-title">Programa educativo</h5>
+        <p class="card-text">Aprende sobre la vida marina con nuestros programas diseñados para escuelas.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card carrusel-card">
+      <img src="Imagenes/imagenPinguinosAcuario.avif" class="card-img-top" alt="Conservación">
+      <div class="card-body">
+        <h5 class="card-title">Equipo de conservación</h5>
+        <p class="card-text">Descubre cómo protegemos las especies marinas.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card carrusel-card">
+      <img src="Imagenes/acuarioCocodrilo.webp" class="card-img-top" alt="Visitas escolares">
+      <div class="card-body">
+        <h5 class="card-title">Visitas Escolares</h5>
+        <p class="card-text">Organiza visitas educativas para tu centro escolar.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card carrusel-card">
+      <img src="Imagenes/actividadCajaAcuario.avif" class="card-img-top" alt="Prácticas">
+      <div class="card-body">
+        <h5 class="card-title">Programa de prácticas</h5>
+        <p class="card-text">Únete a nuestro equipo y vive una experiencia profesional única.</p>
+        <a href="#" class="btn btn-primary">Ver más</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+ <!-- Logos -->
+
+    <section class="container-fluid px-0 m-0 row g-0 ">
+
+      <!-- Bloque 1 -->
+
+      <article type="button" data-bs-toggle="modal" data-bs-target="#gucciModal"
+        class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
+        style="border-width: 20px; background-image: url('Imagenes/lagoDubaiMall.jpg'); background-size: cover; background-position: center; min-height: 70vh;">
+
+        <section class="bg-dark bg-opacity-50 p-4 w-100">
+
+          <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL ARTE DEL LUJO ITALIANO
+          </h6>
+          <h2 class="ms-1 mb-3 text-center text-md-start">GUCCI</h2>
+
+          <div class=" align-items-center text-center ">
+
+            <img src="Imagenes/lagoDubaiMall.jpg" alt="Gucci" width="200" class=" btn p-0 mb-3 mb-lg-0 me-lg-4">
+
+          </div>
+        </section>
+
+      </article>
+
+      <!-- Bloque 2 -->
+      <article type="button" data-bs-toggle="modal" data-bs-target="#bvlgariModal"
+        class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
+        style="border-width: 20px; background-image: url('Imagenes/parqueInfantil.webp'); background-size: cover; background-position: center; min-height: 70vh;">
+        <section class="bg-dark bg-opacity-50 p-4 w-100">
+          <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL MAESTRO DE LOS COLORES</h6>
+          <h2 class="ms-1 mb-3 text-center text-md-start">BVLGARI</h2>
+
+          <div class=" align-items-center text-center ">
+            <img src="Imagenes/logo-bvlgari.png" alt="Bvlgari" width="200" class=" btn p-0 mb-3 mb-lg-0 me-lg-4">
+          </div>
+
+        </section>
+      </article>
+      <!-- Bloque 3 -->
+
+      <article type="button" data-bs-toggle="modal" data-bs-target="#chanelModal"
+        class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
+        style="border-width: 20px; background-image: url('Imagenes/fuenteMall.avif'); background-size: cover; background-position: center; min-height: 70vh;">
+        <section class="bg-dark bg-opacity-50 p-4 w-100">
+          <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL ARTE DE LA ELEGANCIA</h6>
+          <h2 class="ms-1 mb-3 text-center text-md-start">CHANEL</h2>
+
+          <div class=" align-items-center text-center ">
+
+            <img src="Imagenes/logo-chanel.png" alt="Chanel" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
+
+          </div>
+        </section>
+    </article>
+
+
+
+    </article>
+
+
+<br>
+<hr>
+<br>
+
+    <!-- Imagen encima del Footer -->
+    <div class="tituloFooter text-center my-3 mb-3">
+        <img src="Imagenes/dubai-mall-logo-en.png" alt="">
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-100 ">
+        <hr>
+        <div class="container">
+            <div class="row text-center text-lg-start justify-content-between">
+
+                <!-- Síguenos en redes -->
+                <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
+                    <h4>SÍGUENOS EN REDES</h4>
+                    <div class="iconosRedes d-flex justify-content-center justify-content-lg-start gap-2 mt-2">
+                        <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    </div>
+                </div>
+                <!-- NewsLetter -->
+                <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center">
+                    <h4>RECIBE NUESTRA NEWSLETTER</h4>
+                    <form
+                        class="newsletter d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start mt-2">
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Email Address">
+                        <button type="submit" class="btn btn-dark">SIGN UP</button>
+                    </form>
+                </div>
+                <!-- Descarga la APP -->
+                <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
+                    <h4>DESCARGA LA APLICACIÓN</h4>
+                    <div
+                        class="enlacesDescargas d-flex justify-content-center justify-content-lg-center gap-2 mt-2 flex-wrap">
+                        <a href="https://apps.apple.com/us/app/dubai-mall/id430795858"><img
+                                src="Imagenes/descargaAppStore.jpg" alt="App Store" style="height: 40px;"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.thedubaimall&hl=en"><img
+                                src="Imagenes/descargaGooglePlay.jpg" alt="Google Play" style="height: 40px;"></a>
+                        <a href="https://appgallery.huawei.com/app/C100883357"><img
+                                src="Imagenes/descargaAppgallery.jpg" alt="AppGallery" style="height: 40px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container mt-4">
+            <div class="row text-center">
+                <!-- Visitor Information -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">INFORMACIÓN</h6>
+                    <ul class="list-unstyled">
+
+                        <li><button><a href="#">Servicios</a></button></li>
+                        <li><button><a href="#">Mapa del centro</a></button></li>
+                        <li><button><a href="#">The Lounge</a></button></li>
+                        <li><button><a href="#">Más sobre Emaar</a></button></li>
+
+                    </ul>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">ABOUT US</h6>
+                    <ul class="list-unstyled">
+
+                        <li><button><a href="#">Sobre Dubai Mall</a></button></li>
+                        <li><button><a href="#">About Emaar</a></button></li>
+                        <li><button><a href="#">Media Centre</a></button></li>
+                        <li><button><a href="#">Emaar Malls</a></button></li>
+
+
+                    </ul>
+                </div>
+
+                <!-- Policies & Services -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">POLÍTICAS</h6>
+                    <ul class="list-unstyled">
+
+                        <li><button><a href="#">Política de privacidad</a></button></li>
+                        <li><button><a href="#">Términos y condiciones</a></button></li>
+                        <li><button><a href="#">Parking FAQs</a></button></li>
+
+                    </ul>
+                </div>
+
+                <!-- Contact Us -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">CONTACTO</h6>
+                    <p class="mb-1">UAE ONLY: 800 DUBAI MALL (800 38224 6255)</p>
+                    <p class="mb-1">enquiry@thedubaimall.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Negro Copyright -->
+        <div class="bg-black text-center">
+            <p>© 2025 Emaar Malls. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    
+</body>
+
+</html>
