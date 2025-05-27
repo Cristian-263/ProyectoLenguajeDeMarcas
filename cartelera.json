@@ -1,0 +1,71 @@
+[
+  {
+    "nombre": "Thunderbolts",
+    "sinopsis": "Un grupo de antihéroes marginados por el gobierno se une en una misión secreta para redimirse, enfrentando una amenaza global que pondrá a prueba sus habilidades, su lealtad y su capacidad para actuar como un verdadero equipo.",
+    "actores_principales": [
+      "Florence Pugh",
+      "Sebastian Stan",
+      "Olga Kurylenko",
+      "David Harbour"
+    ],
+    "director": "Jake Schreier",
+    "imagen": "https://pics.filmaffinity.com/thunderbolts-198046674-large.jpg"
+  },
+  {
+    "nombre": "A Minecraft Movie",
+    "sinopsis": "Basada en el popular videojuego, la historia sigue a un grupo de jugadores que deben unirse para salvar su mundo pixelado del caos, enfrentando desafíos, criaturas peligrosas y aventuras que pondrán a prueba su creatividad y trabajo en equipo.",
+    "actores_principales": [
+      "Jennifer Coolidge",
+      "Jason Momoa",
+      "Emma Myers"
+    ],
+    "director": "Jared Hess",
+    "imagen": "https://pics.filmaffinity.com/a_minecraft_movie-227832687-large.jpg"
+  },
+  {
+    "nombre": "Sinners",
+    "sinopsis": "En este thriller psicológico, un grupo de amigos es arrastrado a una red de secretos, traiciones y oscuros pecados del pasado, mientras una serie de eventos inquietantes los obliga a enfrentar verdades que podrían destruirlos para siempre.",
+    "actores_principales": [
+      "Hailee Steinfeld",
+      "Michael B. Jordan",
+      "Wunmi Mosaku",
+      "Jack O'Connell"
+    ],
+    "director": "Ryan Coogler",
+    "imagen": "https://pics.filmaffinity.com/sinners-306242848-large.jpg"
+  },
+  {
+    "nombre": "The Accountant 2",
+    "sinopsis": "Christian Wolff, el enigmático contador con habilidades letales, se ve envuelto en una nueva conspiración que amenaza su vida y lo lleva a enfrentarse a viejos enemigos, mientras protege a quienes han confiado en él.",
+    "actores_principales": [
+      "Jon Bernthal",
+      "Ben Affleck",
+      "J.K. Simmons"
+    ],
+    "director": "Gavin O'Connor",
+    "imagen": "https://pics.filmaffinity.com/the_accountant_2-296563604-large.jpg"
+  },
+  {
+    "nombre": "Final Destination: Bloodlines",
+    "sinopsis": "Stefani Reyes, una joven universitaria, comienza a tener pesadillas sobre una tragedia pasada. Al volver a casa, descubre que su familia está marcada por una antigua maldición que desafía la muerte y amenaza con acabar con todos.",
+    "actores_principales": [
+      "Kaitlyn Santa Juana",
+      "Teo Briones",
+      "Richard Harmon",
+      "Tony Todd"
+    ],
+    "director": "Zach Lipovsky y Adam B. Stein",
+    "imagen": "https://pics.filmaffinity.com/final_destination_bloodlines-790034090-large.jpg"
+  },
+  {
+    "nombre": "Shadow Force",
+    "sinopsis": "Con una recompensa por sus cabezas, la pareja formada por Omar Sy y Kerry Washington, huye con su hijo para escapar de su antigua organización: una unidad de operaciones en la sombra que ha sido enviada para liquidarlos.",
+    "actores_principales": [
+      "Mark Strong",
+      "Omar Sy",
+      "Kerry Washington"
+    ],
+    "director": "Joe Carnahan",
+    "imagen": "https://pics.filmaffinity.com/shadow_force-463298944-large.jpg"
+  }
+]
