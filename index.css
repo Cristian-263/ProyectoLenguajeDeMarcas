@@ -1,0 +1,149 @@
+/* Fuentes de Google Fonts*/
+
+ /* Fuente Inter (Parrafos) */
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ /* Fuente Playfair Display (Titulos) */
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ /*MARGEN IZQ PARA LA IMAGEN */
+@media (min-width: 768px) {
+ .dubaih1 {
+  margin-left: 20vh;
+  text-decoration: none;
+ }
+}
+
+
+ header img{
+  height: 8vh;
+  padding: 2vh;
+ }
+
+
+
+
+/* Estilo del botón hamburguesa */
+.navbar-toggler {
+  padding: 0.5rem;
+  border: none;
+}
+/* Botón cerrar menú "X" */
+.btn-close-custom {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+/* Estilo básico del menú */
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: black;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: #666;
+}
+
+/*Barra Secundaria Negra*/
+.subbarra a{
+  font-size: 1,9rem;
+  text-decoration: none;
+  color: white;
+}
+
+/*CARRUSEL*/
+  .carrusel-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem;
+    scroll-padding: 1rem;
+  }
+
+  .carrusel-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tarjeta-carrusel {
+    flex: 0 0 calc(50% - 1rem);
+    scroll-snap-align: start;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    color: white;
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .tarjeta-carrusel {
+      flex: 0 0 100%;
+    }
+  }
+
+  .carrusel-wrapper {
+    position: relative;
+  }
+
+  .boton-carrusel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-size: 1.5rem;
+    z-index: 10;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .boton-carrusel:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .boton-prev {
+    left: 0.5rem;
+  }
+
+  .boton-next {
+    right: 0.5rem;
+  }
+
+
+  
+/*FOOTER*/
+.tituloFooter img{
+    height: 8vh;
+  padding: 2vh;
+}
+ footer button{
+    background: white;
+    border: none;
+ }
+ footer a{
+    text-decoration: none;
+    color: grey;
+ }
