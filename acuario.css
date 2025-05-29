@@ -1,51 +1,111 @@
-/* Fuentes de Google Fonts*/
+/* Fuentes de Google Fonts */
 
- /* Fuente Inter (Parrafos) */
+/* Fuente Inter (Parrafos) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
- /* Fuente Playfair Display (Titulos) */
-
- @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Fuente Playfair Display (Titulos) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
- footer button{
+
+/* SECCIÓN MEDUSAS CON VIDEO */
+
+.seccion-medusas {
+  background-image: url('Imagenes/medusasAcuario.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.contenedorDentroDemedusas {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenedorDentroDemedusas .contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.contenedorDentroDemedusas h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-medusas {
+  width: 90%;
+  max-width: 1000px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+.boton-entradas {
+  margin-bottom: 1rem;
+}
+
+
+/* Estilos footer */
+footer button {
     background: white;
     border: none;
- }
- footer a{
+}
+footer a {
     text-decoration: none;
     color: grey;
- }
- /*CARRUSEL ACTIVIDADES*/
-  .carrusel-actividades {
+}
+
+/* CARRUSEL ACTIVIDADES */
+.carrusel-actividades {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-  }
-  /*Oculta la barra de desplazamiento*/
-  .carrusel-actividades::-webkit-scrollbar {
+    padding-bottom: 2rem;
+}
+.carrusel-actividades::-webkit-scrollbar {
     display: none;
-  }
+}
 
-  .carrusel-card {
+.carrusel-card {
     flex: 0 0 auto;
     scroll-snap-align: start;
-    width: 36rem; 
-  }
+    width: 22rem; /* Más estrechas */
+    margin-right: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.carrusel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
 
-  .card-img-top {
-    height: 450px; 
+.card-img-top {
+    height: 350px;
     object-fit: cover;
-  }
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 
-  .carrusel-container {
+.carrusel-container {
     position: relative;
-  }
+    padding: 0 2rem;
+}
 
-  .carrusel-btn {
+.carrusel-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -55,12 +115,12 @@
     font-size: 2rem;
     padding: 0 0.5rem;
     cursor: pointer;
-  }
-
-  .carrusel-btn.left {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+.carrusel-btn.left {
     left: 0;
-  }
-
-  .carrusel-btn.right {
+}
+.carrusel-btn.right {
     right: 0;
-  }
+}
