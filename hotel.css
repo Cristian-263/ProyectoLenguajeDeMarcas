@@ -1,0 +1,36 @@
+ /* Fuentes de Google Fonts*/
+ /* Fuente Inter (Parrafos) */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ /* Fuente Playfair Display (Titulos) */
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ /* Estilo para los Titlos*/
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Estilo para los párrafos p */
+p,a, h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Tamaño logo del nav */
+nav img {
+    width: 250px;
+    height: 28px;
+}
+
+
+
+.contenedor-principal{ 
+  background-image: url('Imagenes/Hotel-principal.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+.fondo-oscuro{
+    background-size: cover;
+    background-color: rgba(00, 00, 00, 0.35); 
+  width: 100%;
+  height: auto; 
+}
