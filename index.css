@@ -17,11 +17,12 @@ body, p, .navbar-nav .nav-link, .subbarra a, footer a {
  /*MARGEN IZQ PARA LA IMAGEN */
 @media (min-width: 768px) {
  .dubaih1 {
-  margin-left: 20vh;
+  margin-left: 27vh;
   text-decoration: none;
  }
 }
 
+/*Navegador y Header*/
 
  header img{
   height: 8vh;
@@ -63,6 +64,8 @@ body, p, .navbar-nav .nav-link, .subbarra a, footer a {
   text-decoration: none;
   color: white;
 }
+
+
 
 /*CARRUSEL*/
   .carrusel-scroll {
