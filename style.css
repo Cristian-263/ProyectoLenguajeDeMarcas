@@ -55,13 +55,119 @@
 }
 
 
+/*TIPOS DE LETRA*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*TIPOS DE LETRA*/
+
+
 /*PÁGINA RESTAURANTE*/
 img.logo {
     width: 140px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagenAsmaC {
+  object-fit: cover; 
+  height: 70vh;
+}
+
+.imagenPaulC {
+  object-fit: cover; 
+  height: 70vh;
+}
+
+.imagenNewShanghaiC {
+  object-fit: cover; 
+  height: 70vh;
+}
+
+.imagenTiffany {
+  border-width: 20px; 
+  background-image: url(Imagenes/ImagenTiffany.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 70vh;
+}
+
+.imagenDoorsDubai {
+  border-width: 20px; 
+  background-image: url(Imagenes/ImagenDoorsDubaiREstaurant.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 70vh;
+}
+
+.imagenStarbucks {
+  border-width: 20px; 
+  background-image: url(Imagenes/ImagenStarbucks.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 70vh;
+}
+
+.imagenTGI {
+  border-width: 20px; 
+  background-image: url(Imagenes/ImagenTGIFridays.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 70vh;
+}
+
+.imagenFiveGuys {
+  border-width: 20px; 
+  background-image: url(Imagenes/ImagenFiveGuys.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 70vh;
+}
+
+.imagenFondoO {
+  border-width: 20px; 
+  background-image: url(Imagenes/ImagenRestauranteOpso.jpg); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 70vh;
 }
 
 .logo2 {
     width: 150px;
+    border-radius: 10px;
+}
+
+p {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+}
+
+h1, h3, h4, h5 {
+    font-family: Playfair Display, sans-serif;
+}
+
+.botonesRestaurante {
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    position: relative;
+    top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(144, 150, 156);
+    cursor: pointer;
+}
+
+.botonesRestaurante:hover {
+    box-shadow: 5px 5px 10px rgba(116, 139, 209, 0.8);
+}
+
+.botonesRestaurante:active {
+    transform: scale(0.95);
+    transition: transform 0.1 ease;
 }
 
 /*PÁGINA RESTAURANTE*/
@@ -78,6 +184,29 @@ img.btn.p-0 {
 
 img.boton.btn.p-0 {
     width: 150px;
+}
+
+.botonesOcio {
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    position: relative;
+    top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(144, 150, 156);
+    cursor: pointer;
+}
+
+.botonesOcio:hover {
+    box-shadow: 5px 5px 10px rgba(116, 139, 209, 0.8);
+}
+
+.botonesOcio:active {
+    transform: scale(0.95);
+    transition: transform 0.1 ease;
 }
 
 /*PÁGINA OCIO*/
