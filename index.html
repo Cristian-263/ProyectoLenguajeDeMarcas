@@ -14,19 +14,18 @@
 <body>
 
 <header>
-  <!-- Fila superior -->
-  <div class="d-flex flex-column flex-md-row justify-content-between align-items-center px-4 py-2 border-bottom text-uppercase small text-center text-md-start">
+  <!-- Header: fila superior -->
+  <section class="d-flex flex-column flex-md-row justify-content-between align-items-center px-4 py-2 border-bottom text-uppercase small text-center text-md-start">
 
     <span>العربية</span>
     <a href="index.html" class="dubaih1 text-black"><img src="Imagenes/dubai-mall-logo-en.png" alt=""></a>
     <div>
-      <a href="contacto.html" class="text-decoration-none me-3">Contacta con nosotros</a>
-      <a href="#" class="text-decoration-none me-2">Search</a>
-      <a href="#"><i class="bi bi-search"></i></a>
+      <a href="contacto.html" class="text-decoration-none me-3 contactaNav">Contacta con nosotros</a>
+      <span>العربية</span>
     </div>
-  </div>
+  </section>
 
-  <!-- Menú principal con hamburguesa -->
+  <!--Navegador:  Menú principal  -->
 <nav class="navbar navbar-expand-lg navbar-light border-bottom px-4">
   <div class="container-fluid justify-content-start">
     <!-- Botón hamburguesa -->
@@ -42,7 +41,7 @@
       <button type="button" class="btn-close btn-close-custom d-lg-none ms-auto me-3 mt-3" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-label="Close"></button>
       
       <ul class="navbar-nav text-uppercase text-center">
-        <li class="nav-item mx-2"><a class="nav-link" href="#">DUBAI MALL</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="index.html">DUBAI MALL</a></li>
         <li class="nav-item dropdown mx-2">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">MODA</a>
           <ul class="dropdown-menu">
@@ -88,8 +87,8 @@
   </div>
 </nav>
 
-  <!-- Barra negra inferior -->
-  <div class="subbarra bg-black text-white text-center py-2">
+  <!-- Navegador - barra negra inferior -->
+  <nav class="subbarra bg-black text-white text-center py-2">
     <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
       <a href="acuario.html"><span>ACUARIO</span></a>
       <a href="parking.html"><span>FUENTES</span></a>
@@ -97,11 +96,11 @@
       <a href="https://thedubaimall.com/en/campaign/souk-al-bahar"><span>SOUK AL BAHAR</span></a>
      
     </div>
-  </div>
+  </nav>
 </header>
     
-<!-- VIDEO A PANTALLA COMPLETA  -->
-<div class="mb-2" style="position: relative; height: 80vh; overflow: hidden;">
+<!-- Video -->
+<section class="mb-2" style="position: relative; height: 80vh; overflow: hidden;">
   <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover;">
     <source src="Imagenes/videoIndexDubai.mp4" type="video/mp4">
   </video>
@@ -109,13 +108,13 @@
   <!-- Texto del video-->
   <div class="position-absolute bottom-0 start-50 translate-middle-x text-white text-center px-3 pb-5">
     <h1 class="display-3 fw-bold" style="text-shadow: 2px 2px 10px rgba(0,0,0,0.8);">
-      Bienvenido a Dubai Mall
+      Bienvenido a Dubai Mall 
     </h1>
     <p class="lead" style="text-shadow: 1px 1px 8px rgba(0,0,0,0.8);">
       Compras, gastronomía y entretenimiento en un solo lugar
     </p>
   </div>
-</div>
+</section>
 
 <div id="carouselCustom" class="carousel slide">
   <div class="carousel-inner">
@@ -246,13 +245,13 @@
         <hr>
         <div class="container mt-4">
             <div class="row text-center">
-                <!-- Visitor Information -->
+                <!-- Información -->
                 <div class="col-12 col-md-3 mb-3">
                     <h6 class="fw-bold">INFORMACIÓN</h6>
                     <ul class="list-unstyled">
 
                         
-                        <li><button><a href="parking.css">Mapa del centro</a></button></li>
+                        <li><button><a href="parking.html">Mapa del centro</a></button></li>
                         <li><button><a href="https://thedubaimall.com/en/services/the-lounge">The Lounge</a></button></li>
                         <li><button><a href="https://thedubaimall.com/en/more-from-emaar">About Emaar</a></button></li>
 
@@ -266,25 +265,25 @@
 
                         <li><button><a href="https://thedubaimall.com/en/about-us/about-the-dubai-mall">Sobre Dubai Mall</a></button></li>
                         <li><button><a href="https://properties.emaar.com/en/press-release-listing/">Media Centre</a></button></li>
-                        <li><button><a href="#">Emaar Malls</a></button></li>
+                        <li><button><a href="index.html">Emaar Malls</a></button></li>
 
 
                     </ul>
                 </div>
 
-                <!-- Policies & Services -->
+                <!-- Políticas -->
                 <div class="col-12 col-md-3 mb-3">
                     <h6 class="fw-bold">POLÍTICAS</h6>
                     <ul class="list-unstyled">
 
-                        <li><button><a href="#">Política de privacidad</a></button></li>
-                        <li><button><a href="#">Términos y condiciones</a></button></li>
+                        <li><button><a href="aviso-legal.html">Política de privacidad</a></button></li>
+                        <li><button><a href="aviso-legal.html">Términos y condiciones</a></button></li>
                         <li><button><a href="https://thedubaimall.com/en/pages/parking-faq">Parking FAQs</a></button></li>
 
                     </ul>
                 </div>
 
-                <!-- Contact Us -->
+                <!-- Contacto -->
                 <div class="col-12 col-md-3 mb-3">
                     <h6 class="fw-bold">CONTACTO</h6>
                     <p class="mb-1">UAE ONLY: 800 DUBAI MALL (800 38224 6255)</p>
@@ -293,7 +292,7 @@
             </div>
         </div>
         <!-- Footer Negro Copyright -->
-        <div class="bg-black text-center">
+        <div class="bg-black text-center copyright">
             <p>© 2025 Emaar Malls. All rights reserved.</p>
         </div>
 

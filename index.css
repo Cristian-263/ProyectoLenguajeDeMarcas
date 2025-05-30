@@ -3,26 +3,35 @@
  /* Fuente Inter (Parrafos) */
 
  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body, p, .navbar-nav .nav-link, .subbarra a, footer a {
+  font-family: 'Inter', sans-serif;
+}
 
  /* Fuente Playfair Display (Titulos) */
-
+  
  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  h1, h2, h3, .dubaih1, .overlay h2 {
+  font-family: 'Playfair Display', serif;
+}
 
  /*MARGEN IZQ PARA LA IMAGEN */
 @media (min-width: 768px) {
  .dubaih1 {
-  margin-left: 20vh;
+  margin-left: 27vh;
   text-decoration: none;
  }
 }
 
+/*Navegador y Header*/
 
  header img{
   height: 8vh;
   padding: 2vh;
  }
 
-
+.contactaNav{
+  color:rgb(80, 80, 80);
+}
 
 
 /* Estilo del botón hamburguesa */
@@ -55,6 +64,8 @@
   text-decoration: none;
   color: white;
 }
+
+
 
 /*CARRUSEL*/
   .carrusel-scroll {
@@ -146,4 +157,14 @@
  footer a{
     text-decoration: none;
     color: grey;
+ }
+ .copyright{
+  height: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+ }
+ .copyright p{
+  color: rgb(179, 179, 179);
+  padding: 2px;
  }
