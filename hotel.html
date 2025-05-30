@@ -7,8 +7,6 @@
     <title>Souk Al Bahar</title>
     <link rel="icon" href="Imagenes/logo.png">
     <link rel="stylesheet" href="hotel.css">
-    <link rel="icon" href="Imagenes/logo.png" />
-    <!-- Librerias de Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -17,411 +15,166 @@
 
 <body>
     <header>
-        <nav class="p-3 navbar navbar-expand-lg flex-column">
-            <!-- Logo centrado -->
-            <div class="container-fluid justify-content-center border-bottom p-3">
-                <a href="index.html">
-                    <img src="Imagenes/dubai-mall-logo-en.png" alt="Dubai-Mall Logo">
-                </a>
-            </div>
+        <section
+            class="d-flex flex-column flex-md-row justify-content-between align-items-center px-4 py-2 border-bottom text-uppercase small text-center text-md-start">
 
-            <ul class="navbar-nav flex-row flex-wrap justify-content-center border-bottom">
-                <li class="nav-item mx-2"><a class="nav-link" href="index.html">Portada</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="tiendas.html">Tiendas</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="restaurantes.html">Restaurantes</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="ocio.html">Ocio</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="visitanos.html">Visítanos</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="cine.html">Cine</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                <li class="nav-item mx-2"><a class="nav-link" href="aviso-legal.html">Aviso Legal</a></li>
-            </ul>
+            <span>العربية</span>
+            <a href="index.html" class="dubaih1 text-black"><img src="Imagenes/dubai-mall-logo-en.png" alt=""></a>
+            <div>
+                <a href="contacto.html" class="text-decoration-none me-3 contactaNav">Contacta con nosotros</a>
+                <span>العربية</span>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom px-4">
+            <div class="container-fluid justify-content-start">
+                <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="width: 2rem; height: 2rem;"></span>
+                </button>
+                <span class="d-lg-none text-uppercase fw-semibold">Menú</span>
+
+
+                <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                    <button type="button" class="btn-close btn-close-custom d-lg-none ms-auto me-3 mt-3"
+                        data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-label="Close"></button>
+
+                    <ul class="navbar-nav text-uppercase text-center">
+                        <li class="nav-item mx-2"><a class="nav-link" href="index.html">DUBAI MALL</a></li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">MODA</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="tiendas.html">Gucci</a></li>
+                                <li><a class="dropdown-item" href="tiendas.html">Bvlgari</a></li>
+                                <li><a class="dropdown-item" href="tiendas.html">Prada</a></li>
+                                <li><a class="dropdown-item" href="tiendas.html">Rolex</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">RESTAURANTES</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="restaurante.html">Starbucks</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html">Fridays</a></li>
+                                <li><a class="dropdown-item" href="restaurante.html">Five Guys</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">OCIO</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="ocio.html">Hotels</a></li>
+                                <li><a class="dropdown-item" href="ocio.html">Suites</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">CINE</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="cine.html">Cine Dubai</a></li>
+                                <li><a class="dropdown-item" href="cine.html">Cartelera</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">PLANEA
+                                TU VISITA</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="parking.html">Actividades Gratuitas</a></li>
+                                <li><a class="dropdown-item" href="parking.html">Horario</a></li>
+                                <li><a class="dropdown-item" href="parking.html">Parking</a></li>
+                            </ul>
+                        </li>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <nav class="subbarra bg-black  text-white text-center py-2">
+            <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
+                <a href="acuario.html"><span>ACUARIO</span></a>
+                <a href="parking.html"><span>FUENTES</span></a>
+                <a href="parking.html"><span>CHINATOWN</span></a>
+                <a href="https://thedubaimall.com/en/campaign/souk-al-bahar"><span>SOUK AL BAHAR</span></a>
+
+            </div>
         </nav>
     </header>
 
     <main>
         <section>
-                <!-- Slide 1 - MAX&CO -->
-                <article>
-                    <div class="col-12 d-flex p-0 text-white contenedor-principal">
-                        <section class="d-flex align-items-end fondo-oscuro">
-                            <div class="container mt-5 mb-5 py-5 px-5  text-center">
-                                <header class="px-xl-5 ">
-                                    <h2
-                                        class="text-uppercase ms-3 ms-md-1 pt-5 display-3 fw-bold">
-                                       Dubai Mall Souk Al Bahar</h2>
-                                    <p class="ms-1 mb-3 ">
-                                        Ubicado en el corazón del centro de Dubái, el Souk Al Bahar cautiva con su <br> encantadora combinación de encanto árabe y sofisticación moderna. Pasee por <br> sus sinuosas callejuelas adornadas con tesoros tradicionales, donde los ecos del <br> comercio antiguo se mezclan con el vibrante pulso de la cultura contemporánea.
-                                    </p>
-                                     <a href="#" class="btn px-5 ms-2 mt-5 border border-1 text-white">Ver más</a>
-                                </header>
+            <article>
+                <div class="col-12 d-flex p-0 text-white contenedor-principal">
+                    <section class="d-flex align-items-end fondo-oscuro">
+                        <div class="container mt-5 mb-5 py-5 px-5  text-center">
+                            <header class="px-xl-5 ">
+                                <h2 class="text-uppercase ms-3 ms-md-1 pt-5 display-3 fw-bold">
+                                    Dubai Mall Souk Al Bahar</h2>
+                                <p class="ms-1 mb-3 ">
+                                    Ubicado en el corazón del centro de Dubái, el Souk Al Bahar cautiva con su <br>
+                                    encantadora combinación de encanto árabe y sofisticación moderna. Pasee por <br> sus
+                                    sinuosas callejuelas adornadas con tesoros tradicionales, donde los ecos del <br>
+                                    comercio antiguo se mezclan con el vibrante pulso de la cultura contemporánea.
+                                </p>
+                                <a href="https://www.emaarmalls.ae/malls/souk-al-bahar/"
+                                    class="btn boton1 px-5 ms-2 mt-5 border border-1 text-white"><label>Ver
+                                        más</label></a>
+                            </header>
 
-                                    
-                            </div>
-                        </section>
-                    </div>
-                </article>
+
+                        </div>
+                    </section>
+                </div>
+            </article>
         </section>
 
+        <section class="container row g-0 ">
 
+            <article class="col-12 col-md-6 col-lg-6 d-flex contenedor1">
+                <div class="fondo-oscuro"></div>
+            </article>
 
-
-
-
-        <!-- Logos -->
+            <article class="col-12 col-md-6 col-lg-6 text-center text-white border border-white contenedor2">
+                <h1 class="text-black display-5 ms-5">Mercado de marineros</h1>
+                <p class="text-black">Mezclando lo clásico con lo contemporáneo.</p>
+            </article>
+        </section>
 
         <section class="container-fluid px-0 m-0 row g-0 ">
 
-            <!-- Bloque 1 -->
+            <article
+                class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white tiendas-seccion">
+                <section class="fondo-oscuro p-4 ">
+                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">Descubre Tesoros Únicos</h6>
+                    <h2 class="ms-1 mb-3 text-center text-md-start">TIENDAS</h2>
+                    <p class="text-center text-md-start">Los senderos de Souk Al Bahar están adornados con una cautivadora fusión de moda, artesanía árabe y artefactos atemporales, ofreciendo una inmersión inolvidable en la riqueza cultural y el patrimonio.</p>
+                </section>
+            </article>
 
-            <article type="button" data-bs-toggle="modal" data-bs-target="#gucciModal"
+            <article
                 class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
-                style="border-width: 20px; background-image: url('Imagenes/tienda-gucci.webp'); background-size: cover; background-position: center; min-height: 70vh;">
-
-                <section class="bg-dark bg-opacity-50 p-4 w-100">
-
-                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL ARTE DEL LUJO
-                        ITALIANO
-                    </h6>
-                    <h2 class="ms-1 mb-3 text-center text-md-start">GUCCI</h2>
-
-                    <div class=" align-items-center text-center ">
-
-                        <img src="Imagenes/logo-gucci.png" alt="Gucci" width="200"
-                            class=" btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-                    </div>
+                style="border-width: 20px; background-image: url('Imagenes/hotel-4.jpg'); background-size: cover; background-position: center; min-height: 70vh;">
+                <section class="fondo-oscuro p-4">
+                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">Un Viaje Culinario Exquisito</h6>
+                    <h2 class="ms-1 mb-3 text-center text-md-start">COMIDAS</h2>
+                    <p class="text-center text-md-start texto-contenedor">Embárquese en un viaje culinario en el encantador ambiente de Souk Al Bahar, donde comer trasciende el mero sustento para convertirse en un deleite sensorial.</p>
                 </section>
-
             </article>
 
-            <!-- Bloque 2 -->
-            <article type="button" data-bs-toggle="modal" data-bs-target="#bvlgariModal"
+            <article
                 class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
-                style="border-width: 20px; background-image: url('Imagenes/tienda-bulgari.webp'); background-size: cover; background-position: center; min-height: 70vh;">
-                <section class="bg-dark bg-opacity-50 p-4 w-100">
-                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL MAESTRO DE LOS
-                        COLORES</h6>
-                    <h2 class="ms-1 mb-3 text-center text-md-start">BVLGARI</h2>
-
-                    <div class=" align-items-center text-center ">
-                        <img src="Imagenes/logo-bvlgari.png" alt="Bvlgari" width="200"
-                            class=" btn p-0 mb-3 mb-lg-0 me-lg-4">
-                    </div>
-
-                </section>
-            </article>
-            <!-- Bloque 3 -->
-
-            <article type="button" data-bs-toggle="modal" data-bs-target="#chanelModal"
-                class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
-                style="border-width: 20px; background-image: url('Imagenes/Tienda_chanel.jpg'); background-size: cover; background-position: center; min-height: 70vh;">
-                <section class="bg-dark bg-opacity-50 p-4 w-100">
-                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL ARTE DE LA
-                        ELEGANCIA</h6>
-                    <h2 class="ms-1 mb-3 text-center text-md-start">CHANEL</h2>
-
-                    <div class=" align-items-center text-center ">
-
-                        <img src="Imagenes/logo-chanel.png" alt="Chanel" width="200"
-                            class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-                    </div>
-                </section>
-            </article>
-            <!-- Bloque 4 -->
-            <article type="button" data-bs-toggle="modal" data-bs-target="#pradaModal"
-                class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
-                style="border-width: 20px; background-image: url('Imagenes/tienda-prada2.avif'); background-size: cover; background-position: center; min-height: 70vh;">
-                <section class="bg-dark bg-opacity-50 p-4 w-100">
-                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">HECHO A MEDIDA</h6>
-                    <h2 class="ms-1 mb-3 text-center text-md-start">PRADA</h2>
-
-
-                    <div class="align-items-center text-center ">
-
-                        <img src="Imagenes/logo-prada.svg" alt="Prada" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-
-                    </div>
-                </section>
-            </article>
-            <!-- Bloque 5 -->
-            <article type="button" data-bs-toggle="modal" data-bs-target="#bearbrickModal"
-                class="col-12 col-md-4 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
-                style="border-width: 20px; background-image: url('Imagenes/tienda-bearbrick.jpg'); background-size: cover; background-position: center; min-height: 70vh;">
-                <section class="bg-dark bg-opacity-50 p-4 w-100">
-                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">ARTE COLECCIONABLE
-                    </h6>
-                    <h2 class="ms-1 mb-3 text-center text-md-start">BE@RBRICK</h2>
-
-                    <div class="align-items-center text-center ">
-                        <img src="Imagenes/logo-bearbrick.jpg" alt="Bearbrick" width="200"
-                            class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-                    </div>
-                </section>
-            </article>
-
-            <!-- Bloque 6 -->
-            <article type="button" data-bs-toggle="modal" data-bs-target="#rolexModal"
-                class="col-12 col-md-4 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white"
-                style="border-width: 20px; background-image: url('Imagenes/tienda-rolx2.jpg'); background-size: cover; background-position: center; min-height: 70vh;">
-                <section class="bg-dark bg-opacity-50 p-4 w-100">
-                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">RELOJERÍA DE LUJO
-                        ETERNA</h6>
-                    <h2 class="ms-1 mb-3 text-center text-md-start">ROLEX</h2>
-
-                    <div class="align-items-center text-center ">
-
-                        <img src="Imagenes/logo-rolex.svg" alt="ROLEX" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-                    </div>
+                style="border-width: 20px; background-image: url('Imagenes/hotel-5.jpg'); background-size: cover; background-position: center; min-height: 70vh;">
+                <section class="fondo-oscuro p-4 ">
+                    <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">Inmersión Cultural y Energética</h6>
+                    <h2 class="ms-1 mb-3 text-center text-md-start">EXPERIENCIA</h2>
+                    <p class="text-center text-md-start">Abarcando la amplitud del lago Burj, Souk Al Bahar se conecta a la perfección con el Dubai Mall, ofreciendo una escapada inmersiva llena de energía vibrante y atractivo cultural.</p>
                 </section>
             </article>
 
         </section>
+
     </main>
-
-    <!-- Modales del carrusel -->
-    <!-- Modal MAX&CO -->
-    <article class="modal fade" id="maxcoModal">
-        <search class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">MAX&CO - ESTILO CONTEMPORÁNEO</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/Tienda-Max-Co.jpg" alt="Tienda Max&Co"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;">
-                    <p>MAX&Co. es una marca de moda italiana que forma parte del prestigioso grupo Max Mara Fashion
-                        Group.
-                        Dirigida a mujeres jóvenes, modernas y dinámicas, se caracteriza por ofrecer colecciones
-                        versátiles,
-                        coloridas y funcionales que combinan estilo contemporáneo con la elegancia italiana.</p>
-                    <p><a href="https://es.maxandco.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-            </section>
-    </article>
-
-    <!-- Modal Zara Home -->
-    <article class="modal fade" id="zarahomeModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">ZARA HOME - DECORACIÓN MODERNA</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-zara-home.jpg" alt="Zara Home tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>Zara Home ofrece productos de decoración y textiles para el hogar con estilo moderno y elegante,
-                        ideal
-                        para quienes buscan renovar sus espacios con las últimas tendencias.</p>
-                    <p><a href="https://www.zarahome.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-    <!-- Modal CHARLOTTE TILBURY  -->
-    <article class="modal fade" id="charlotteModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">CHARLOTTE TILBURY - MAQUILLAJE DE LUJO</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-charlotte.jpg" alt="Charlote-tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>El propósito y la misión de la marca Charlotte Tilbury es que todos se sientan y luzcan como la
-                        versión más
-                        bella de sí mismos. Charlotte Tilbury Beauty inspira a las personas a descubrir su potencial
-                        estelar con una
-                        gama de productos de cuidado de la piel, maquillaje y fragancias que aumentan la confianza.</p>
-                    <p><a href="https://www.charlottetilbury.com" target="_blank" class="btn btn-outline-dark">Visitar
-                            tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-    <!-- Modal  Jaeger-LeCoultre -->
-    <article class="modal fade" id="jaegerModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">JAEGER-LECOULTRE - RELOJERÍA DE LUJO</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/Tienda-Jaeger.jpg" alt="Charlote-tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p> Desde 1833, Jaeger-LeCoultre ha sido sinónimo de excelencia relojera suiza.
-                        Reconocida por su innovación técnica y diseño refinado, la marca ha creado más de 1.200 calibres
-                        y colecciones icónicas como el Reverso y el Master Ultra Thin</p>
-                    <p><a href="https://www.jaeger-lecoultre.com" target="_blank" class="btn btn-outline-dark">Visitar
-                            tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-        </section>
-    </article>
-    <!-- Otros modales -->
-    <!-- Modal Gucci -->
-    <article class="modal fade" id="gucciModal" tabindex="-1">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">GUCCI - EL ÍCONO DEL ESTILO</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-gucci.avif" alt="Imagen tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>Fundada en Florencia en 1921, Gucci es una de las marcas de moda de lujo líderes a nivel mundial,
-                        con
-                        una reconocida reputación por su creatividad, innovación y artesanía italiana. Gucci forma parte
-                        del
-                        Grupo Kering, líder mundial en ropa y accesorios, con una cartera de prestigiosas marcas de
-                        lujo,
-                        deporte y estilo de vida. Para más información sobre Gucci, visite su sitio web oficial.</p>
-                    <p><a href="https://www.gucci.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a></p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-
-    <!-- Modal Bvlgari -->
-    <article class="modal fade" id="bvlgariModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">BVLGARI – EL MAESTRO DE LOS COLORES</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-bvlgari.jpg" alt="Imagen tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>Bulgari se fundó en Roma en 1884 y rápidamente se forjó una reputación de excelencia italiana con
-                        una
-                        exquisita artesanía y magníficas creaciones. La historia de Bulgari se distingue por la
-                        magnificencia de
-                        grandes gemas de color excepcionalmente raras, por su capacidad para armonizar lo clásico con lo
-                        contemporáneo y por una inconfundible sensibilidad creativa que trasciende el tiempo y las modas
-                        pasajeras. Para más información sobre Bvlgari, visite su sitio web oficial.</p>
-                    <p><a href="https://www.bulgari.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a></p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-    <!-- Modal Chanel -->
-    <article class="modal fade" id="chanelModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">CHANEL – EL ARTE DE LA ELEGANCIA</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-chanel.jpg" alt="Imagen tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>“Quiero ser parte de lo que sucede” - Mademoiselle Chanel. Esta aspiración, junto con una mente
-                        visionaria, ha hecho de Chanel una marca única. Para más información sobre Chanel, visite su
-                        sitio web
-                        oficial.</p>
-                    <p><a href="https://www.chanel.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a></p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-    <!-- Modal Prada -->
-    <article class="modal fade" id="pradaModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">PRADA – Hecho a medida</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-prada.avif" alt="Imagen tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>Prada, fundada en 1913 en Milán, ofrece ropa para hombre y mujer, artículos de cuero, calzado,
-                        gafas y
-                        fragancias. Para más información sobre Prada, visite su sitio web oficial.</p>
-                    <p><a href="https://www.prada.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-    <!-- Modal BearBrick -->
-    <article class="modal fade" id="bearbrickModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">BE@RBRICK - ARTE COLECCIONABLE</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-Bearbrick.jpeg" alt="Imagen tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>BE@RBRICK son artículos coleccionables de edición limitada, presentados por MediCom Toy Japan en
-                        2001.
-                        Con forma de oso antropofizado y producidos en ediciones limitadas, sus diseños se basan en
-                        cualquier
-                        cosa, desde el arte moderno y la cultura pop hasta el cine y la televisión y la moda/ropa
-                        urbana.</p>
-                    <p><a href="https://bearbrick.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-    <!-- Modal Rolex -->
-    <article class="modal fade" id="rolexModal">
-        <section class="modal-dialog modal-lg modal-dialog-centered">
-            <section class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">BE@RBRICK - ARTE COLECCIONABLE</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <section class="modal-body text-center">
-                    <img src="Imagenes/tienda-rolex.jpg" alt="Imagen tienda"
-                        class="img-fluid mb-3 mx-auto d-block w-100" style="max-width: 300px;"><br>
-                    <p>Los relojes Rolex se elaboran con las mejores materias primas y se ensamblan con escrupulosa
-                        atención
-                        al detalle. Cada componente se diseña, desarrolla y produce según los estándares más exigentes.
-                    </p>
-                    <p><a href="https://www.rolex.com" target="_blank" class="btn btn-outline-dark">Visitar tienda
-                            oficial</a>
-                    </p>
-                </section>
-            </section>
-        </section>
-    </article>
-
-
-
-
 </body>
 
 </html>
