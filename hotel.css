@@ -1,94 +1,104 @@
 /* Fuentes de Google Fonts*/
- /* Fuente Inter (Parrafos) */
- @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
- /* Fuente Playfair Display (Titulos) */
- @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Fuente Inter (Parrafos) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Fuente Playfair Display (Titulos) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
- /* Estilo para los Titlos*/
-h1, h2 {
-    font-family: 'Playfair Display', serif;
+/* Estilo para los Titlos*/
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
 }
 
 /* Estilo para los párrafos p */
-p,a, h6 {
-    font-family: 'Inter', sans-serif;
-}
-
-/* Tamaño logo del nav */
-nav img {
-    width: 250px;
-    height: 28px;
+p,
+a,
+h6 {
+  font-family: 'Inter', sans-serif;
 }
 
 
 
-.contenedor-principal{ 
+
+
+
+.contenedor-principal {
   background-image: url('Imagenes/Hotel-principal.jpg');
   background-size: cover;
   background-position: center;
   min-height: 90vh;
   border-bottom: 2px solid white;
-}
-.fondo-oscuro{
-    background-color: rgba(00, 00, 00, 0.35); /* Increased opacity slightly for better text readability */
-    width: 100%;
-    height: 100%; /* Ensure it covers the entire parent article */
-    display: flex; /* Added for alignment */
-    flex-direction: column; /* Added for alignment */
-    justify-content: flex-end; /* Puts content at the bottom */
-    padding: 20px; /* Add some padding */
-    box-sizing: border-box; /* Include padding in the element's total width and height */
+  margin-top: 120px;
 }
 
-.boton1{
+.fondo-oscuro {
+  background-color: rgba(00, 00, 00, 0.25);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.fondo-oscuro-principal {
+  background-color: rgba(00, 00, 00, 0.25);
+  width: 100%;
+  height: auto;
+
+}
+
+.boton1 {
   border-radius: 0 !important;
 }
 
-a.btn:hover{
+a.btn:hover {
   background-color: white;
   color: black !important;
 }
 
-.contenedor1{
-    border-width: 20px;
-    background-image: url('Imagenes/hotel-2.jpg'); /* This image seems to be a placeholder, consider using the actual "SHOPPING" image */
-    background-size: cover;
-    background-position: center;
-    min-height: 80vh;  
-}
-.contenedor2{
-  padding-top: 250px;
+.contenedor1 {
+  border-width: 20px;
+  background-image: url('Imagenes/hotel-2.jpg');
+  /* This image seems to be a placeholder, consider using the actual "SHOPPING" image */
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
 }
 
-/* New styles for the SHOPPING, DINING, EXPERIENCE sections */
-.tienda-seccion {
-   
-    border-width: 20px;
-    background-image: url('Imagenes/hotel-3.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh;
+.contenedor2 {
+  padding-top: 200px;
 }
 
-.dining-section {
-    background-image: url('Imagenes/hotel-4.jpg'); /* Assuming you'll have an image for dining */
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh; /* Adjust as needed */
-    color: white;
-    border: 2px solid white;
+.tiendas-seccion {
+  border: 1px solid white;
+  border-left: none;
+  background-image: url('Imagenes/hotel-3.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+.comidas-seccion {
+  background-image: url('Imagenes/hotel-4.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  color: white;
+  border: 1px solid white;
 
 }
 
-.experience-section {
-    background-image: url('Imagenes/hotel-5.jpg'); /* Assuming you'll have an image for experience */
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh; /* Adjust as needed */
-    color: white;
-    border: 2px solid white;
+.experiencias-seccion {
+  background-image: url('Imagenes/hotel-5.jpg');
+
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  color: white;
+  border: 1px solid white;
 
 }
-.texto-contenedor{
-  margin-bottom:35px ;
+
+.texto-contenedor {
+  margin-bottom: 35px;
 }
