@@ -7,20 +7,16 @@
   <title>Tiendas, comercios y outlets de lujo en el Dubai Mall</title>
   <link rel="icon" href="Imagenes/logo.png">
   <link rel="stylesheet" href="tiendas.css">
-  <link rel="icon" href="Imagenes/logo.png" />
+  <link rel="stylesheet" href="header-footer.css">
+  <script src="https://kit.fontawesome.com/132cfaaa93.js" crossorigin="anonymous"></script>
   <!-- Librerias de Bootstrap 5 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="header-footer.css">
-  <script src="https://kit.fontawesome.com/132cfaaa93.js" crossorigin="anonymous"></script>
-
-
 </head>
 
-<body>
-
+<body class=" mt-5 mt-xl-0">
+  <!-- Header: fila superior -->
   <header>
-    <!-- Header: fila superior -->
     <section
       class="d-flex flex-column flex-md-row justify-content-between align-items-center px-4 py-2 border-bottom text-uppercase small text-center text-md-start">
 
@@ -31,7 +27,6 @@
         <span>العربية</span>
       </div>
     </section>
-
     <!--Navegador:  Menú principal  -->
     <nav class="navbar navbar-expand-lg navbar-light border-bottom px-4">
       <div class="container-fluid justify-content-start">
@@ -41,13 +36,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <span class="d-lg-none text-uppercase fw-semibold">Menú</span>
-
-
         <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
           <!-- Botón de cerrar (móvil)-->
           <button type="button" class="btn-close btn-close-custom d-lg-none ms-auto me-3 mt-3" data-bs-toggle="collapse"
             data-bs-target="#mainNavbar" aria-label="Close"></button>
-
           <ul class="navbar-nav text-uppercase text-center">
             <li class="nav-item mx-2"><a class="nav-link" href="index.html">DUBAI MALL</a></li>
             <li class="nav-item dropdown mx-2">
@@ -92,10 +84,10 @@
             </li>
 
 
+          </ul>
         </div>
       </div>
     </nav>
-
     <!-- Navegador - barra negra inferior -->
     <nav class="subbarra bg-black text-white text-center py-2">
       <div class="container-fluid d-flex flex-wrap justify-content-center gap-4">
@@ -103,20 +95,18 @@
         <a href="parking.html"><span>FUENTES</span></a>
         <a href="parking.html"><span>CHINATOWN</span></a>
         <a href="hotel.html"><span>SOUK AL BAHAR</span></a>
-
       </div>
     </nav>
   </header>
 
   <main>
-    <section id="carruselTiendas" class="carousel slide" data-bs-ride="carousel">
+    <section id="carruselTiendas" class="carousel slide " data-bs-ride="carousel">
 
       <div class="carousel-inner">
-
         <!-- Slide 1 - MAX&CO -->
         <article class="carousel-item active ">
           <div role="button" data-bs-toggle="modal" data-bs-target="#maxcoModal"
-            class="col-12 d-flex p-0 text-white contenedor-Max-Co">
+            class=" p-0 text-white contenedor-Max-Co">
             <section class="fondo-oscuro align-items-center">
               <div class="container mt-5 mb-5 py-5 px-5 ">
                 <div class="px-xl-5">
@@ -127,18 +117,17 @@
                     fusiona
                     estilo dinámico y feminidad moderna en colecciones versátiles para cada ocasión...</p>
                 </div>
-                <div class="text-center text-lg-start px-xl-5">
+                <figure class="text-center text-lg-start px-xl-5">
                   <img src="Imagenes/logo-max&co.png" alt="Max&Co" width="150" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-                </div>
+                </figure>
               </div>
             </section>
           </div>
         </article>
-
         <!-- Slide 2 - Zara Home -->
         <article class="carousel-item">
           <div role="button" data-bs-toggle="modal" data-bs-target="#zarahomeModal"
-            class="col-12 d-flex p-0 text-white contenedor-Zara-Home">
+            class=" p-0 text-white contenedor-Zara-Home">
             <section class="fondo-oscuro align-items-center ">
               <div class="container mt-5 mb-5 py-5 px-5">
                 <div class="px-xl-5">
@@ -148,44 +137,42 @@
                   <p class="ms-1 mb-3 text-center text-md-start pt-3">Descubre las últimas novedades en ropa de cama,
                     fragancias para el hogar, vajillas, alfombras, lámparas, fundas nórdicas...</p>
                 </div>
-                <div class="text-center text-lg-start px-xl-5">
+                <figure class="text-center text-lg-start px-xl-5">
                   <img src="Imagenes/logo-zara-home.jpg" alt="Zara Home" width="150"
                     class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-                </div>
+                </figure>
               </div>
             </section>
           </div>
 
         </article>
 
-
         <!-- Slide 3 - Charlotte Tilbury's -->
         <article class="carousel-item">
           <div role="button" data-bs-toggle="modal" data-bs-target="#charlotteModal"
-            class="col-12 d-flex p-0 text-white contenedor-Charlotte-Tilbury">
+            class=" p-0 text-white contenedor-Charlotte-Tilbury">
             <section class=" fondo-oscuro align-items-center ">
               <div class="container mt-1 mt-sm-5 mb-5 py-5 px-5">
                 <div class="px-xl-5">
                   <h2
-                    class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom border-2 pb-3 display-3">
+                    class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom border-2 pb-3 display-3 ">
                     Charlotte Tilbury's</h2>
                   <p class="ms-1 mb-3 text-center text-md-start pt-3">Descubre las últimas novedades en maquillaje de
                     alta
                     gama: labiales, iluminadores, bases, sombras, cuidado de la piel ...</p>
                 </div>
-                <div class="text-center text-lg-start px-xl-5">
+                <figure class="text-center text-lg-start px-xl-5">
                   <img src="Imagenes/logo-charlotte.png" alt="Charlotte Tilbury's" width="150"
                     class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-                </div>
+                </figure>
               </div>
             </section>
           </div>
         </article>
-
         <!-- Slide 4 - Jaeger Le Coultre -->
         <article class="carousel-item">
           <div role="button" data-bs-toggle="modal" data-bs-target="#jaegerModal"
-            class="col-12 d-flex p-0 text-white contenedor-Jaeger-Le-Coultre">
+            class=" p-0 text-white contenedor-Jaeger-Le-Coultre">
             <section class="fondo-oscuro align-items-center ">
               <div class="container mt-1 mt-sm-5 mb-5 py-5 px-5">
                 <div class="px-xl-5">
@@ -196,16 +183,15 @@
                     de
                     lujo con precisión artesanal e innovación técnica. Descubre sus icónicas colecciones.</p>
                 </div>
-                <div class="text-center text-lg-start px-xl-5">
+                <figure class="text-center text-lg-start px-xl-5">
                   <img src="Imagenes/logo-Jaeger.svg" alt="Jaeger Le Coultre" width="150"
                     class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-                </div>
+                </figure>
               </div>
             </section>
           </div>
         </article>
       </div>
-
       <!-- Controles del carrusel de abajo -->
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carruselTiendas" data-bs-slide-to="0" class="active" aria-current="true"
@@ -226,105 +212,75 @@
 
     </section>
 
-
-
-
-
-
     <!-- Logos -->
-
     <section class="container-fluid px-0 m-0 row g-0 ">
-
-      <!-- Bloque 1 -->
-
+      <!-- Bloque Gucci -->
       <article type="button" data-bs-toggle="modal" data-bs-target="#gucciModal"
         class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white contenedor-Gucci">
         <section class="fondo-oscuro-pequenio">
           <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL ARTE DEL LUJO ITALIANO
           </h6>
           <h2 class="ms-1 mb-3 text-center text-md-start">GUCCI</h2>
-
-          <div class=" align-items-center text-center ">
-
+          <figure class=" align-items-center text-center ">
             <img src="Imagenes/logo-gucci.png" alt="Gucci" width="200" class=" btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-          </div>
+          </figure>
         </section>
-
       </article>
-
-      <!-- Bloque 2 -->
+      <!-- Bloque Bvlgari -->
       <article type="button" data-bs-toggle="modal" data-bs-target="#bvlgariModal"
         class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white contenedor-Bvlgari">
         <section class="fondo-oscuro-pequenio">
           <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL MAESTRO DE LOS COLORES</h6>
           <h2 class="ms-1 mb-3 text-center text-md-start">BVLGARI</h2>
-
-          <div class=" align-items-center text-center ">
+          <figure class=" align-items-center text-center ">
             <img src="Imagenes/logo-bvlgari.png" alt="Bvlgari" width="200" class=" btn p-0 mb-3 mb-lg-0 me-lg-4">
-          </div>
-
+          </figure>
         </section>
       </article>
-      <!-- Bloque 3 -->
-
+      <!-- Bloque Chanel -->
       <article type="button" data-bs-toggle="modal" data-bs-target="#chanelModal"
         class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white contenedor-Chanel">
         <section class="fondo-oscuro-pequenio">
           <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">EL ARTE DE LA ELEGANCIA</h6>
           <h2 class="ms-1 mb-3 text-center text-md-start">CHANEL</h2>
-
-          <div class=" align-items-center text-center ">
-
+          <figure class=" align-items-center text-center ">
             <img src="Imagenes/logo-chanel.png" alt="Chanel" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-          </div>
+          </figure>
         </section>
       </article>
-      <!-- Bloque 4 -->
+      <!-- Bloque Prada -->
       <article type="button" data-bs-toggle="modal" data-bs-target="#pradaModal"
         class="col-12 col-md-6 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white contenedor-Prada">
         <section class="fondo-oscuro-pequenio">
           <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">HECHO A MEDIDA</h6>
           <h2 class="ms-1 mb-3 text-center text-md-start">PRADA</h2>
-
-
-          <div class="align-items-center text-center ">
-
+          <figure class="align-items-center text-center ">
             <img src="Imagenes/logo-prada.svg" alt="Prada" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-
-          </div>
+          </figure>
         </section>
       </article>
-      <!-- Bloque 5 -->
+      <!-- Bloque BearBrick -->
       <article type="button" data-bs-toggle="modal" data-bs-target="#bearbrickModal"
         class="col-12 col-md-4 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white contenedor-Bearbrick">
         <section class="fondo-oscuro-pequenio">
           <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">ARTE COLECCIONABLE</h6>
           <h2 class="ms-1 mb-3 text-center text-md-start">BE@RBRICK</h2>
-
-          <div class="align-items-center text-center ">
+          <figure class="align-items-center text-center ">
             <img src="Imagenes/logo-bearbrick.jpg" alt="Bearbrick" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-          </div>
+          </figure>
         </section>
       </article>
-
-      <!-- Bloque 6 -->
+      <!-- Bloque Rolex -->
       <article type="button" data-bs-toggle="modal" data-bs-target="#rolexModal"
         class="col-12 col-md-4 col-lg-4 d-flex align-items-end justify-content-center text-white border border-white contenedor-Rolex">
         <section class="fondo-oscuro-pequenio">
           <h6 class="text-uppercase ms-3 ms-md-1 text-center text-md-start border-bottom">RELOJERÍA DE LUJO ETERNA</h6>
           <h2 class="ms-1 mb-3 text-center text-md-start">ROLEX</h2>
-
-          <div class="align-items-center text-center ">
-
+          <figure class="align-items-center text-center ">
             <img src="Imagenes/logo-rolex.svg" alt="ROLEX" width="200" class="btn p-0 mb-3 mb-lg-0 me-lg-4">
-
-          </div>
+          </figure>
         </section>
       </article>
-
     </section>
   </main>
   <!-- Imagen encima del Footer -->
@@ -334,15 +290,13 @@
     <img src="Imagenes/dubai-mall-logo-en.png" alt="">
     <hr>
   </div>
-
   <!-- Footer -->
   <footer class="w-100 ">
 
     <div class="container">
       <div class="row text-center text-lg-start justify-content-between">
-
         <!-- Síguenos en redes -->
-        <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
+        <section class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
           <h4>SÍGUENOS EN REDES</h4>
           <div class="iconosRedes d-flex justify-content-center justify-content-lg-start gap-2 mt-2">
             <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
@@ -350,553 +304,579 @@
             <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
             <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
           </div>
-        </div>
+        </section>
         <!-- NewsLetter -->
-        <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center">
+        <section class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center">
           <h4>RECIBE NUESTRA NEWSLETTER</h4>
           <form class="newsletter d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start mt-2">
             <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Email Address">
             <a href="contacto.html"><button type="submit" class="btn btn-dark">SIGN UP</button></a>
           </form>
-        </div>
+        </section>
         <!-- Descarga la APP -->
-        <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
+        <section class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
           <h4>DESCARGA LA APLICACIÓN</h4>
           <div class="enlacesDescargas d-flex justify-content-center justify-content-lg-center gap-2 mt-2 flex-wrap">
             <a href="https://apps.apple.com/us/app/dubai-mall/id430795858"><img src="Imagenes/descargaAppStore.jpg"
-                alt="App Store" style="height: 40px;"></a>
+                alt="App Store" class="logos_descarga rounded"></a>
             <a href="https://play.google.com/store/apps/details?id=com.thedubaimall&hl=en"><img
-                src="Imagenes/descargaGooglePlay.jpg" alt="Google Play" style="height: 40px;"></a>
+                src="Imagenes/descargaGooglePlay.jpg" alt="Google Play" class="logos_descarga rounded"></a>
             <a href="https://appgallery.huawei.com/app/C100883357"><img src="Imagenes/descargaAppgallery.jpg"
-                alt="AppGallery" style="height: 40px;"></a>
+                alt="AppGallery" class="logos_descarga rounded"></a>
           </div>
-        </div>
+        </section>
       </div>
     </div>
     <hr>
     <div class="container mt-4">
       <div class="row text-center">
         <!-- Información -->
-        <div class="col-12 col-md-3 mb-3">
+        <section class="col-12 col-md-3 mb-3">
           <h6 class="fw-bold">INFORMACIÓN</h6>
           <ul class="list-unstyled">
-
-
             <li><button><a href="parking.html">Mapa del centro</a></button></li>
             <li><button><a href="https://thedubaimall.com/en/services/the-lounge">The Lounge</a></button></li>
             <li><button><a href="https://thedubaimall.com/en/more-from-emaar">About Emaar</a></button></li>
-
           </ul>
-        </div>
-
+        </section>
         <!-- About Us -->
-        <div class="col-12 col-md-3 mb-3">
+        <section class="col-12 col-md-3 mb-3">
           <h6 class="fw-bold">ABOUT US</h6>
           <ul class="list-unstyled">
-
             <li><button><a href="https://thedubaimall.com/en/about-us/about-the-dubai-mall">Sobre Dubai
                   Mall</a></button></li>
             <li><button><a href="https://properties.emaar.com/en/press-release-listing/">Media Centre</a></button></li>
             <li><button><a href="index.html">Emaar Malls</a></button></li>
-
-
           </ul>
-        </div>
-
+        </section>
         <!-- Políticas -->
-        <div class="col-12 col-md-3 mb-3">
+        <section class="col-12 col-md-3 mb-3">
           <h6 class="fw-bold">POLÍTICAS</h6>
           <ul class="list-unstyled">
-
             <li><button><a href="aviso-legal.html">Política de privacidad</a></button></li>
             <li><button><a href="aviso-legal.html">Términos y condiciones</a></button></li>
             <li><button><a href="https://thedubaimall.com/en/pages/parking-faq">Parking FAQs</a></button></li>
-
           </ul>
-        </div>
-
+        </section>
         <!-- Contacto -->
-        <div class="col-12 col-md-3 mb-3">
+        <section class="col-12 col-md-3 mb-3">
           <h6 class="fw-bold">CONTACTO</h6>
           <p class="mb-1">UAE ONLY: 800 DUBAI MALL (800 38224 6255)</p>
           <p class="mb-1">enquiry@thedubaimall.com</p>
-        </div>
+        </section>
       </div>
     </div>
     <!-- Footer Negro Copyright -->
     <div class="bg-black text-center copyright">
-      <p>© 2025 Emaar Malls. All rights reserved.</p>
+      <p>© <time datetime="2025">2025</time> Emaar Malls. All rights reserved.</p>
     </div>
 
   </footer>
 
   <!-- Modales del carrusel -->
- <article class="modal fade" id="maxcoModal" tabindex="-1" aria-labelledby="maxcoModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="maxcoModalLabel">MAX&CO - ESTILO CONTEMPORÁNEO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/Tienda-Max-Co.jpg" class="imagen-modal rounded img-fluid" alt="Tienda MAX&Co. interior">
+  <!--Modal Max&Co-->
+  <article class="modal fade" id="maxcoModal" tabindex="-1" aria-labelledby="maxcoModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="maxcoModalLabel">MAX&CO - ESTILO CONTEMPORÁNEO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Moda Italiana para la Mujer Moderna</h6>
-
-        <p class="text-start">MAX&Co. es una marca de moda italiana que forma parte del prestigioso grupo Max Mara
-          Fashion Group. Dirigida a mujeres jóvenes, modernas y dinámicas, se caracteriza por ofrecer colecciones
-          versátiles, coloridas y funcionales que combinan estilo contemporáneo con la elegancia italiana. Sus diseños
-          son ideales para un armario completo, desde el día a día hasta eventos especiales.</p>
-        <p class="text-start">Descubre sus últimas colecciones de prêt-à-porter, accesorios y piezas atemporales que
-          reflejan las tendencias actuales con un toque de sofisticación.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, cerca de la Fashion Avenue.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/Tienda-Max-Co.jpg" class=" px-xl-5  img-fluid  rounded " alt="Tienda MAX&Co. interior">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Moda Italiana para la Mujer Moderna</h6>
+
+          <p class="text-start">MAX&Co. es una marca de moda italiana que forma parte del prestigioso grupo Max Mara
+            Fashion Group. Dirigida a mujeres jóvenes, modernas y dinámicas, se caracteriza por ofrecer colecciones
+            versátiles, coloridas y funcionales que combinan estilo contemporáneo con la elegancia italiana. Sus diseños
+            son ideales para un armario completo, desde el día a día hasta eventos especiales.</p>
+          <p class="text-start">Descubre sus últimas colecciones de prêt-à-porter, accesorios y piezas atemporales que
+            reflejan las tendencias actuales con un toque de sofisticación.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, cerca de la Fashion Avenue.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://es.maxandco.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://es.maxandco.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/maxandcoofficial/?locale=es_ES" target="_blank"><i
-              class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/maxandco/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/maxandcoofficial/?locale=es_ES" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/maxandco/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="zarahomeModal" tabindex="-1" aria-labelledby="zarahomeModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="zarahomeModalLabel">ZARA HOME - DECORACIÓN MODERNA</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-zara-home.jpg" class="imagen-modal rounded img-fluid" alt="Zara Home tienda">
+  </article>
+  <!-- Modal ZaraHome-->
+  <article class="modal fade" id="zarahomeModal" tabindex="-1" aria-labelledby="zarahomeModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="zarahomeModalLabel">ZARA HOME - DECORACIÓN MODERNA</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Estilo y Confort para tu Hogar</h6>
-
-        <p class="text-start">Zara Home ofrece productos de decoración y textiles para el hogar con estilo moderno y
-          elegante, ideal
-          para quienes buscan renovar sus espacios con las últimas tendencias. Encuentra una amplia variedad de
-          productos para cada rincón de tu casa, desde ropa de cama y baño hasta menaje de cocina y mobiliario decorativo.</p>
-        <p class="text-start">Sumérgete en un universo de diseño y calidad que transformará tu hogar en un espacio único y acogedor.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Nivel 1, cerca de la entrada principal.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-zara-home.jpg" class=" px-xl-5  img-fluid  rounded " alt="Zara Home tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Estilo y Confort para tu Hogar</h6>
+
+          <p class="text-start">Zara Home ofrece productos de decoración y textiles para el hogar con estilo moderno y
+            elegante, ideal
+            para quienes buscan renovar sus espacios con las últimas tendencias. Encuentra una amplia variedad de
+            productos para cada rincón de tu casa, desde ropa de cama y baño hasta menaje de cocina y mobiliario
+            decorativo.</p>
+          <p class="text-start">Sumérgete en un universo de diseño y calidad que transformará tu hogar en un espacio
+            único y acogedor.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Nivel 1, cerca de la entrada principal.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.zarahome.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.zarahome.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/zarahome/" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/zarahome/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/zarahome/" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/zarahome/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
+  </article>
 
-<article class="modal fade" id="charlotteModal" tabindex="-1" aria-labelledby="charlotteModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="charlotteModalLabel">CHARLOTTE TILBURY - MAQUILLAJE DE LUJO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-charlotte.jpg" class="imagen-modal rounded img-fluid" alt="Charlote-tienda">
+  <!-- Modal Charlotte-->
+  <article class="modal fade" id="charlotteModal" tabindex="-1" aria-labelledby="charlotteModalLabel"
+    aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="charlotteModalLabel">CHARLOTTE TILBURY - MAQUILLAJE DE LUJO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">La Magia del Maquillaje de Celebridades</h6>
-
-        <p class="text-start">El propósito y la misión de la marca Charlotte Tilbury es que todos se sientan y luzcan
-          como la versión más bella de sí mismos. Charlotte Tilbury Beauty inspira a las personas a descubrir su potencial estelar con una
-          gama de productos de cuidado de la piel, maquillaje y fragancias que aumentan la confianza.</p>
-        <p class="text-start">Descubre sus icónicos productos, desde el "Magic Cream" hasta sus paletas de sombras y labiales que transformarán tu rutina de belleza.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Nivel 1, cerca de la sección de perfumería.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-charlotte.jpg" class=" px-xl-5  img-fluid  rounded " alt="Charlote-tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">La Magia del Maquillaje de Celebridades</h6>
+
+          <p class="text-start">El propósito y la misión de la marca Charlotte Tilbury es que todos se sientan y luzcan
+            como la versión más bella de sí mismos. Charlotte Tilbury Beauty inspira a las personas a descubrir su
+            potencial estelar con una
+            gama de productos de cuidado de la piel, maquillaje y fragancias que aumentan la confianza.</p>
+          <p class="text-start">Descubre sus icónicos productos, desde el "Magic Cream" hasta sus paletas de sombras y
+            labiales que transformarán tu rutina de belleza.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Nivel 1, cerca de la sección de perfumería.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.charlottetilbury.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.charlottetilbury.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda
+              Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/CharlotteTilbury/" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/charlottetilbury/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/CharlotteTilbury/" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/charlottetilbury/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
+  </article>
 
-<article class="modal fade" id="jaegerModal" tabindex="-1" aria-labelledby="jaegerModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="jaegerModalLabel">JAEGER-LECOULTRE - RELOJERÍA DE LUJO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/Tienda-Jaeger.jpg" class="imagen-modal rounded img-fluid" alt="Tienda Jaeger-LeCoultre">
+  <!--Modal Jaeger-->
+  <article class="modal fade" id="jaegerModal" tabindex="-1" aria-labelledby="jaegerModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="jaegerModalLabel">JAEGER-LECOULTRE - RELOJERÍA DE LUJO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Maestría Relojera Suiza desde 1833</h6>
-
-        <p class="text-start"> Desde 1833, Jaeger-LeCoultre ha sido sinónimo de excelencia relojera suiza.
-          Reconocida por su innovación técnica y diseño refinado, la marca ha creado más de 1.200 calibres
-          y colecciones icónicas como el Reverso y el Master Ultra Thin. Cada reloj es una obra de arte, combinando tradición y vanguardia.</p>
-        <p class="text-start">Visita nuestra boutique para descubrir las últimas creaciones y sumergirte en el legado de la Alta Relojería.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, The Grand Atrium.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/Tienda-Jaeger.jpg" class=" px-xl-5  img-fluid  rounded " alt="Tienda Jaeger-LeCoultre">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Maestría Relojera Suiza desde 1833</h6>
+
+          <p class="text-start"> Desde 1833, Jaeger-LeCoultre ha sido sinónimo de excelencia relojera suiza.
+            Reconocida por su innovación técnica y diseño refinado, la marca ha creado más de 1.200 calibres
+            y colecciones icónicas como el Reverso y el Master Ultra Thin. Cada reloj es una obra de arte, combinando
+            tradición y vanguardia.</p>
+          <p class="text-start">Visita nuestra boutique para descubrir las últimas creaciones y sumergirte en el legado
+            de la Alta Relojería.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, The Grand Atrium.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.jaeger-lecoultre.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.jaeger-lecoultre.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda
+              Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/JaegerLeCoultre" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/jaegerlecoultre/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/JaegerLeCoultre" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/jaegerlecoultre/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="gucciModal" tabindex="-1" aria-labelledby="gucciModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="gucciModalLabel">GUCCI - EL ÍCONO DEL ESTILO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-gucci.avif" class="imagen-modal rounded img-fluid" alt="Imagen tienda">
+  </article>
+  <!--Modales Main-->
+  <!--Modal Gucci -->
+  <article class="modal fade" id="gucciModal" tabindex="-1" aria-labelledby="gucciModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="gucciModalLabel">GUCCI - EL ÍCONO DEL ESTILO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Innovación, Lujo y Artesanía Italiana</h6>
-
-        <p class="text-start">Fundada en Florencia en 1921, Gucci es una de las marcas de moda de lujo líderes a nivel
-          mundial, con una reconocida reputación por su creatividad, innovación y artesanía italiana. Gucci forma parte del
-          Grupo Kering, líder mundial en ropa y accesorios, con una cartera de prestigiosas marcas de lujo,
-          deporte y estilo de vida.</p>
-        <p class="text-start">Descubre sus colecciones de moda, bolsos, calzado, accesorios y fragancias que definen las tendencias globales del lujo.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, Fashion Avenue.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-gucci.avif" class=" px-xl-5  img-fluid  rounded " alt="Imagen tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Innovación, Lujo y Artesanía Italiana</h6>
+
+          <p class="text-start">Fundada en Florencia en 1921, Gucci es una de las marcas de moda de lujo líderes a nivel
+            mundial, con una reconocida reputación por su creatividad, innovación y artesanía italiana. Gucci forma
+            parte del
+            Grupo Kering, líder mundial en ropa y accesorios, con una cartera de prestigiosas marcas de lujo,
+            deporte y estilo de vida.</p>
+          <p class="text-start">Descubre sus colecciones de moda, bolsos, calzado, accesorios y fragancias que definen
+            las tendencias globales del lujo.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, Fashion Avenue.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.gucci.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.gucci.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/GUCCI/" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/gucci/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/GUCCI/" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/gucci/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="bvlgariModal" tabindex="-1" aria-labelledby="bvlgariModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="bvlgariModalLabel">BVLGARI – EL MAESTRO DE LOS COLORES</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-bvlgari.jpg" class="imagen-modal rounded img-fluid" alt="Imagen tienda">
+  </article>
+  <!--Modal Bvlgari-->
+  <article class="modal fade" id="bvlgariModal" tabindex="-1" aria-labelledby="bvlgariModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bvlgariModalLabel">BVLGARI – EL MAESTRO DE LOS COLORES</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Sofisticación y Herencia Romana</h6>
-
-        <p class="text-start">Bulgari se fundó en Roma en 1884 y rápidamente se forjó una reputación de excelencia
-          italiana con una exquisita artesanía y magníficas creaciones. La historia de Bulgari se distingue por la magnificencia de
-          grandes gemas de color excepcionalmente raras, por su capacidad para armonizar lo clásico con lo
-          contemporáneo y por una inconfundible sensibilidad creativa que trasciende el tiempo y las modas pasajeras.</p>
-        <p class="text-start">Explora sus impresionantes colecciones de joyería, relojería, accesorios y fragancias, un verdadero tributo a la belleza y la artesanía.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, cerca de la Waterfall.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-bvlgari.jpg" class=" px-xl-5  img-fluid  rounded " alt="Imagen tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Sofisticación y Herencia Romana</h6>
+
+          <p class="text-start">Bulgari se fundó en Roma en 1884 y rápidamente se forjó una reputación de excelencia
+            italiana con una exquisita artesanía y magníficas creaciones. La historia de Bulgari se distingue por la
+            magnificencia de
+            grandes gemas de color excepcionalmente raras, por su capacidad para armonizar lo clásico con lo
+            contemporáneo y por una inconfundible sensibilidad creativa que trasciende el tiempo y las modas pasajeras.
+          </p>
+          <p class="text-start">Explora sus impresionantes colecciones de joyería, relojería, accesorios y fragancias,
+            un verdadero tributo a la belleza y la artesanía.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, cerca de la Waterfall.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.bulgari.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.bulgari.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/Bulgari/" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/bulgari/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/Bulgari/" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/bulgari/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="chanelModal" tabindex="-1" aria-labelledby="chanelModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="chanelModalLabel">CHANEL – EL ARTE DE LA ELEGANCIA</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-chanel.jpg" class="imagen-modal rounded img-fluid" alt="Imagen tienda">
+  </article>
+  <!--Modal Chanel-->
+  <article class="modal fade" id="chanelModal" tabindex="-1" aria-labelledby="chanelModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="chanelModalLabel">CHANEL – EL ARTE DE LA ELEGANCIA</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Moda, Perfumería y Alta Costura Atemporal</h6>
-
-        <p class="text-start">“Quiero ser parte de lo que sucede” - Mademoiselle Chanel. Esta aspiración, junto con
-          una mente visionaria, ha hecho de Chanel una marca única. Sinónimo de lujo, elegancia y sofisticación, Chanel ha revolucionado la moda femenina a lo largo de décadas.</p>
-        <p class="text-start">Explora sus icónicas colecciones de alta costura, prêt-à-porter, bolsos, fragancias y joyería que definen la esencia de la mujer moderna.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, Fashion Avenue.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-chanel.jpg" class=" px-xl-5  img-fluid  rounded " alt="Imagen tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Moda, Perfumería y Alta Costura Atemporal</h6>
+
+          <p class="text-start">“Quiero ser parte de lo que sucede” - Mademoiselle Chanel. Esta aspiración, junto con
+            una mente visionaria, ha hecho de Chanel una marca única. Sinónimo de lujo, elegancia y sofisticación,
+            Chanel ha revolucionado la moda femenina a lo largo de décadas.</p>
+          <p class="text-start">Explora sus icónicas colecciones de alta costura, prêt-à-porter, bolsos, fragancias y
+            joyería que definen la esencia de la mujer moderna.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, Fashion Avenue.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.chanel.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.chanel.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/chanel" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/chanelofficial/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/chanel" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/chanelofficial/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="pradaModal" tabindex="-1" aria-labelledby="pradaModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="pradaModalLabel">PRADA – HECHO A MEDIDA</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-prada.avif" class="imagen-modal rounded img-fluid" alt="Imagen tienda">
+  </article>
+  <!--Modal Prada-->
+  <article class="modal fade" id="pradaModal" tabindex="-1" aria-labelledby="pradaModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="pradaModalLabel">PRADA – HECHO A MEDIDA</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Elegancia, Innovación y Calidad Italiana</h6>
-
-        <p class="text-start">Prada, fundada en 1913 en Milán, ofrece ropa para hombre y mujer, artículos de cuero,
-          calzado, gafas y fragancias. Reconocida por su vanguardia en diseño y su constante experimentación, Prada es un referente de la moda global.</p>
-        <p class="text-start">Descubre sus colecciones que combinan un estilo sofisticado con una atención impecable al detalle y una artesanía excepcional.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, Fashion Avenue.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-prada.avif" class=" px-xl-5  img-fluid  rounded " alt="Imagen tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Elegancia, Innovación y Calidad Italiana</h6>
+
+          <p class="text-start">Prada, fundada en 1913 en Milán, ofrece ropa para hombre y mujer, artículos de cuero,
+            calzado, gafas y fragancias. Reconocida por su vanguardia en diseño y su constante experimentación, Prada es
+            un referente de la moda global.</p>
+          <p class="text-start">Descubre sus colecciones que combinan un estilo sofisticado con una atención impecable
+            al detalle y una artesanía excepcional.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, Fashion Avenue.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://www.prada.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://www.prada.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/Prada" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/prada/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/Prada" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/prada/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="bearbrickModal" tabindex="-1" aria-labelledby="bearbrickModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="bearbrickModalLabel">BE@RBRICK - ARTE COLECCIONABLE</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-Bearbrick.jpeg" class="imagen-modal rounded img-fluid" alt="Imagen tienda">
+  </article>
+  <!-- Modal bearbrick -->
+  <article class="modal fade" id="bearbrickModal" tabindex="-1" aria-labelledby="bearbrickModalLabel"
+    aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bearbrickModalLabel">BE@RBRICK - ARTE COLECCIONABLE</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Figuras Icónicas del Diseño Urbano</h6>
-
-        <p class="text-start">BE@RBRICK son artículos coleccionables de edición limitada, presentados por Medicom Toy
-          Japan en 2001. Con forma de oso antropofizado y producidos en ediciones limitadas, sus diseños se basan en cualquier
-          cosa, desde el arte moderno y la cultura pop hasta el cine y la televisión y la moda/ropa urbana.</p>
-        <p class="text-start">Cada BE@RBRICK es una obra de arte, fruto de colaboraciones únicas con artistas, marcas y diseñadores de renombre mundial. ¡Descubre la pieza perfecta para tu colección!</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Nivel 2, The Collectors Hub.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-Bearbrick.jpeg" class=" px-xl-5  img-fluid  rounded " alt="Imagen tienda">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Figuras Icónicas del Diseño Urbano</h6>
+
+          <p class="text-start">BE@RBRICK son artículos coleccionables de edición limitada, presentados por Medicom Toy
+            Japan en 2001. Con forma de oso antropofizado y producidos en ediciones limitadas, sus diseños se basan en
+            cualquier
+            cosa, desde el arte moderno y la cultura pop hasta el cine y la televisión y la moda/ropa urbana.</p>
+          <p class="text-start">Cada BE@RBRICK es una obra de arte, fruto de colaboraciones únicas con artistas, marcas
+            y diseñadores de renombre mundial. ¡Descubre la pieza perfecta para tu colección!</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Nivel 2, The Collectors Hub.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
 
-        <p class="text-center">
-          <a href="https://bearbrick.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
+          <p class="text-center">
+            <a href="https://bearbrick.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
 
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/bearbrickofficial/" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/bearbrick_official/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/bearbrickofficial/" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/bearbrick_official/" target="_blank"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-<article class="modal fade" id="rolexModal" tabindex="-1" aria-labelledby="rolexModalLabel" aria-hidden="true">
-  <section class="modal-dialog modal-lg modal-dialog-centered">
-    <section class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="rolexModalLabel">ROLEX - RELOJERÍA DE PRESTIGIO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-      </div>
-      <section class="modal-body text-center">
-        <div class="mb-5 active">
-          <img src="Imagenes/tienda-rolex.jpg" class="imagen-modal rounded img-fluid" alt="Imagen tienda Rolex">
+  </article>
+  <!--Modal Rolex-->
+  <article class="modal fade" id="rolexModal" tabindex="-1" aria-labelledby="rolexModalLabel" aria-hidden="true">
+    <section class="modal-dialog modal-lg modal-dialog-centered">
+      <section class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="rolexModalLabel">ROLEX - RELOJERÍA DE PRESTIGIO</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-
-        <h6 class="text-uppercase text-muted mb-3">Excelencia, Precisión y Resistencia</h6>
-
-        <p class="text-start">Los relojes Rolex se elaboran con las mejores materias primas y se ensamblan con escrupulosa atención
-          al detalle. Cada componente se diseña, desarrolla y produce según los estándares más exigentes, garantizando una fiabilidad y un rendimiento inigualables.</p>
-        <p class="text-start">Descubre la colección completa de modelos Rolex, desde los icónicos Oyster Perpetual y Submariner hasta los elegantes Datejust y Day-Date.</p>
-
-        <hr class="my-4">
-
-        <div class="row text-start mb-4">
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, The Grand Atrium.</p>
+        <section class="modal-body text-center">
+          <div class="mb-5 active">
+            <img src="Imagenes/tienda-rolex.jpg" class=" px-xl-5  img-fluid rounded" alt="Imagen tienda Rolex">
           </div>
-          <div class="col-md-6 mb-3">
-            <p class="mb-1"><strong>Horario:</strong> <br>
-              Lunes - Jueves: 10:00 AM - 11:00 PM <br>
-              Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+
+          <h6 class="text-uppercase text-muted mb-3">Excelencia, Precisión y Resistencia</h6>
+
+          <p class="text-start">Los relojes Rolex se elaboran con las mejores materias primas y se ensamblan con
+            escrupulosa atención
+            al detalle. Cada componente se diseña, desarrolla y produce según los estándares más exigentes, garantizando
+            una fiabilidad y un rendimiento inigualables.</p>
+          <p class="text-start">Descubre la colección completa de modelos Rolex, desde los icónicos Oyster Perpetual y
+            Submariner hasta los elegantes Datejust y Day-Date.</p>
+
+          <hr class="my-4">
+
+          <div class="row text-start mb-4">
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Ubicación:</strong> <br>Planta Baja, The Grand Atrium.</p>
+            </div>
+            <div class="col-md-6 mb-3">
+              <p class="mb-1"><strong>Horario:</strong> <br>
+                Lunes - Jueves: 10:00 AM - 11:00 PM <br>
+                Viernes - Domingo: 10:00 AM - 00:00 AM</p>
+            </div>
           </div>
-        </div>
-
-        <p class="text-center">
-          <a href="https://www.rolex.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
-        </p>
-
-        <div class="mt-4">
-          <p class="text-muted">Síguenos en redes:</p>
-          <a href="https://www.facebook.com/rolex" target="_blank"><i class="fa-brands fa-facebook fa-2x me-2"></i></a>
-          <a href="https://www.instagram.com/rolex/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-        </div>
+          <p class="text-center">
+            <a href="https://www.rolex.com" target="_blank" class="btn btn-dark btn-lg">Visitar Tienda Oficial</a>
+          </p>
+          <div class="mt-4">
+            <p class="text-muted">Síguenos en redes:</p>
+            <a href="https://www.facebook.com/rolex" target="_blank"><i
+                class="fa-brands fa-facebook fa-2x me-2"></i></a>
+            <a href="https://www.instagram.com/rolex/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+          </div>
+        </section>
       </section>
     </section>
-  </section>
-</article>
-
-
-
-
+  </article>
 </body>
-
 </html>
