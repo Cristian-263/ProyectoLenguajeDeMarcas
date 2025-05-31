@@ -20,6 +20,8 @@ body {
 
 
 /*PÁGINA RESTAURANTE*/
+
+
 img.logo {
     width: 140px;
     border-radius: 10px;
@@ -27,17 +29,17 @@ img.logo {
     margin-bottom: 10px;
 }
 
-.imagenAsmaC {
+.imagenAsma {
   object-fit: cover; 
   height: 70vh;
 }
 
-.imagenPaulC {
+.imagenPaul {
   object-fit: cover; 
   height: 70vh;
 }
 
-.imagenNewShanghaiC {
+.imagenNewShanghai {
   object-fit: cover; 
   height: 70vh;
 }
