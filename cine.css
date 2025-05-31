@@ -1,0 +1,111 @@
+/* Fuentes de Google Fonts */
+/* Fuente Inter (Párrafos) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Fuente Playfair Display (Títulos) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Estilo para los Títulos */
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Estilo para los párrafos p */
+p,
+a,
+h6 {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding-top: 155px;
+}
+
+.cine-principal {
+    background-image: url('Imagenes/Cine-Principal.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+
+.fondo-oscuro {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    min-height: 510px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-contacto {
+    margin-left: 85px;
+}
+
+.telefono {
+    margin-right: 120px;
+}
+
+/* Estilo para las imágenes de los carteles de película */
+.card-img-poster {
+    width: 100%;
+    height: 60vw;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Estilo adicional para las tarjetas de la cartelera */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body .card-text {
+    font-size: 0.95rem;
+}
+
+/* Alineación para la sección de ubicación */
+.ubicacion-mapa img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* ===== Tamaños Pequeños ===== */
+@media (max-width: 768px) {
+    body {
+        padding-top: 120px;
+    }
+
+    .cine-principal {
+        padding-top: 100px;
+
+    }
+
+    .contenedor-contacto {
+        margin-left: 20px;
+       
+    }
+
+    .telefono {
+        margin-right: 20px;
+    }
+
+    .card-img-poster {
+        height: 300px;
+    }
+
+    .fondo-oscuro {
+        min-height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .card-body .card-text {
+        font-size: 0.9rem;
+    }
+}
