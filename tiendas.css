@@ -5,64 +5,114 @@
  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
  /* Estilo para los Titlos*/
-h1, h2 {
-    font-family: 'Playfair Display', serif;
-}
-
-/* Estilo para los párrafos p */
-p,a, h6 {
-    font-family: 'Inter', sans-serif;
-}
-
-/*Navegador y Header*/
-
- /*MARGEN IZQ PARA LA IMAGEN */
-@media (min-width: 768px) {
- .dubaih1 {
-  margin-left: 27vh;
-  text-decoration: none;
- }
-}
-
- header img{
-  height: 8vh;
-  padding: 2vh;
+ h1,
+ h2 {
+     font-family: 'Playfair Display', serif;
  }
 
-.contactaNav{
-  color:rgb(80, 80, 80);
-}
+ /* Estilo para los párrafos p */
+ p,
+ a,
+ h6 {
+     font-family: 'Inter', sans-serif;
+ }
+
+ body {
+     padding-top: 155px;
+ }
 
 
-/* Estilo del botón hamburguesa */
-.navbar-toggler {
-  padding: 0.5rem;
-  border: none;
-}
-/* Botón cerrar menú "X" */
-.btn-close-custom {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: black;
-  cursor: pointer;
-}
-/* Estilo básico del menú */
-.navbar-nav .nav-link {
-  font-weight: 500;
-  color: black;
-  text-transform: uppercase;
-  transition: color 0.3s;
-}
-.navbar-nav .nav-link:hover {
-  color: #666;
-}
+ .contenedor-Max-Co {
+     background-image: url('Imagenes/tienda-max&co.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
 
-/*Barra Secundaria Negra*/
-.subbarra a{
-  font-size: 1,9rem;
-  text-decoration: none;
-  color: white;
-}
+ .contenedor-Zara-Home {
+     background-image: url('Imagenes/zara-home.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
 
+ .contenedor-Charlotte-Tilbury {
+     background-image: url('Imagenes/Charlote-tienda.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
 
+ .contenedor-Jaeger-Le-Coultre {
+     background-image: url('Imagenes/Jaeger-tienda.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+
+ .contenedor-Gucci {
+     border-width: 20px;
+     background-image: url('Imagenes/tienda-gucci.webp');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+
+ .contenedor-Bvlgari {
+     border-width: 20px;
+     background-image: url('Imagenes/tienda-bulgari.webp');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+
+ .contenedor-Chanel {
+     border-width: 20px;
+     background-image: url('Imagenes/Tienda_chanel.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+
+ .contenedor-Prada {
+     border-width: 20px;
+     background-image: url('Imagenes/tienda-prada2.avif');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+
+ .contenedor-Bearbrick{
+     border-width: 20px;
+     background-image: url('Imagenes/tienda-bearbrick.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+ .contenedor-Rolex{
+     border-width: 20px;
+     background-image: url('Imagenes/tienda-rolx2.jpg');
+     background-size: cover;
+     background-position: center;
+     min-height: 70vh;
+ }
+
+ .fondo-oscuro {
+     background-color: rgba(00, 00, 00, 0.25);
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
+
+ .fondo-oscuro-pequenio {
+     background-color: rgba(00, 00, 00, 0.35);
+     width: 100%;
+     padding: 22px;
+ }
+
+ .imagen-modal{
+    max-width: 200px;
+    
+ }
