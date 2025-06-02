@@ -31,7 +31,7 @@
     <!-- Botón hamburguesa -->
     <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
       aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon" style="width: 2rem; height: 2rem;"></span>
+      <span class="navbar-toggler-icon btn-hamburguesa"></span>
     </button>
     <span class="d-lg-none text-uppercase fw-semibold">Menú</span>
 
@@ -525,9 +525,107 @@
 
 
   <!-- Footer -->
-  <footer>
-    <a href="">Síguenos en redes</a>
-    <a href="contacto.html">Formulario de contacto</a>
-    <a href="aviso-legal.html">Aviso Legal</a>
-  </footer>
+  <!-- Imagen encima del Footer -->
+        
+    <div class="tituloFooter text-center my-3 mb-5 mt-5">
+      <hr>
+        <img src="Imagenes/dubai-mall-logo-en.png" alt="">
+        <hr>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w-100 ">
+        
+        <div class="container">
+            <div class="row text-center text-lg-start justify-content-between">
+
+                <!-- Síguenos en redes -->
+                <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
+                    <h4>SÍGUENOS EN REDES</h4>
+                    <div class="iconosRedes d-flex justify-content-center justify-content-lg-start gap-2 mt-2">
+                        <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    </div>
+                </div>
+                <!-- NewsLetter -->
+                <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center">
+                    <h4>RECIBE NUESTRA NEWSLETTER</h4>
+                    <form
+                        class="newsletter d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start mt-2">
+                        <input type="email" class="form-control me-sm-2 mb-2 mb-sm-0" placeholder="Email Address">
+                        <a href="contacto.html"><button type="submit" class="btn btn-dark">SIGN UP</button></a>
+                    </form>
+                </div>
+                <!-- Descarga la APP -->
+                <div class="col-12 col-lg-4 mb-4 d-flex flex-column align-items-center ">
+                    <h4>DESCARGA LA APLICACIÓN</h4>
+                    <div
+                        class="enlacesDescargas d-flex justify-content-center justify-content-lg-center gap-2 mt-2 flex-wrap">
+                        <a href="https://apps.apple.com/us/app/dubai-mall/id430795858"><img
+                                src="Imagenes/descargaAppStore.jpg" alt="App Store" class="logos_descarga rounded"></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.thedubaimall&hl=en"><img
+                                src="Imagenes/descargaGooglePlay.jpg" alt="Google Play" class="logos_descarga rounded"></a>
+                        <a href="https://appgallery.huawei.com/app/C100883357"><img
+                                src="Imagenes/descargaAppgallery.jpg" alt="AppGallery" class="logos_descarga rounded"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container mt-4">
+            <div class="row text-center">
+                <!-- Información -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">INFORMACIÓN</h6>
+                    <ul class="list-unstyled">
+
+                        
+                        <li><button><a href="parking.html">Mapa del centro</a></button></li>
+                        <li><button><a href="https://thedubaimall.com/en/services/the-lounge">The Lounge</a></button></li>
+                        <li><button><a href="https://thedubaimall.com/en/more-from-emaar">About Emaar</a></button></li>
+
+                    </ul>
+                </div>
+
+                <!-- About Us -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">ABOUT US</h6>
+                    <ul class="list-unstyled">
+
+                        <li><button><a href="https://thedubaimall.com/en/about-us/about-the-dubai-mall">Sobre Dubai Mall</a></button></li>
+                        <li><button><a href="https://properties.emaar.com/en/press-release-listing/">Media Centre</a></button></li>
+                        <li><button><a href="index.html">Emaar Malls</a></button></li>
+
+
+                    </ul>
+                </div>
+
+                <!-- Políticas -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">POLÍTICAS</h6>
+                    <ul class="list-unstyled">
+
+                        <li><button><a href="aviso-legal.html">Política de privacidad</a></button></li>
+                        <li><button><a href="aviso-legal.html">Términos y condiciones</a></button></li>
+                        <li><button><a href="https://thedubaimall.com/en/pages/parking-faq">Parking FAQs</a></button></li>
+
+                    </ul>
+                </div>
+
+                <!-- Contacto -->
+                <div class="col-12 col-md-3 mb-3">
+                    <h6 class="fw-bold">CONTACTO</h6>
+                    <p class="mb-1">UAE ONLY: 800 DUBAI MALL (800 38224 6255)</p>
+                    <p class="mb-1">enquiry@thedubaimall.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Negro Copyright -->
+        <div class="bg-black text-center copyright">
+            <p class="text-white">© 2025 Emaar Malls. All rights reserved.</p>
+        </div>
+
+    </footer>
 </body>
