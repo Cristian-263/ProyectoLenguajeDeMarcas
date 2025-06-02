@@ -61,6 +61,9 @@ header img {
   text-decoration: none;
   color: white;
 }
+.btn-hamburguesa{
+  width: 2rem; height: 2rem;
+}
 /* FOOTER */
 .tituloFooter img {
   height: 8vh;
